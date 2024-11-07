@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+
+/* nav bar */
+
+.main_nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #A3E3FA; */
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-dropdown {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+    height: 90px
+}
+
+.logo a img {
+    width: 120px;
+    height: 96px;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.options {
+    @font-face {
+        font-family: 'Helvetica';
+        src: local('Helvetica'), local('Helvetica-Regular'), url('/path/to/helvetica.woff') format('woff');
+
+    }
+
+    padding: 33px;
+    font-family: Helvetica,
+    sans-serif;
+    font-weight: bold;
+    font-size: large;
+    transition: color 250ms ease-out 78ms;
+    color: #808080;
+}
+
+.options:hover {
+    color: rgb(0, 0, 0);
+    background-color: #f8a559;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+
+.home {
+    cursor: pointer;
+
+}
+
+.about {
+    cursor: pointer;
+}
+
+.service {
+    cursor: pointer;
+}
+
+
+
+
+/* content */
+
+.main {
+    background-image: url('../images/model_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    ;
+}
+
+.dash_title{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.all_dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard {
+    gap: 20px;
+    display: flex;
+}
+
+.img_name_machine {
+    border: 2px solid rgb(97, 97, 97);
+    padding: 40px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image_machine img {
+    width: 400px;
+    height: 400px;
+}
+
+.name_machine {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.rpm_torque {
+    display: flex;
+    gap: 120px;
+}
+
+.result {
+    background-color: #f8a559;
+    border-radius: 20px;
+    height: 242px;
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    backdrop-filter: blur(30px);
+}
+
+.temperature,
+.rpm_torque_result,
+.toolwear_type {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.air_temperature,
+.process_temperature,
+.rpm,
+.torque,
+.toolwear,
+.type {
+    border: 2px solid;
+    padding: 13px;
+    width: 276px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px
+}
+
+#parameter_machine {
+    position: relative;
+    font-family: "Space Grotesk", sans-serif !important;
+    font-size: 100px !important;
+
+}
+#myChart{
+    height: 242px !important;
+    width: 431px !important;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.pie_chart {
+    padding-left: 36px;
+}
+
+.pie {
+    --p: 20;
+    --b: 11px;
+    --c: rgb(255, 255, 255);
+    --w: 109px;
+
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    margin: 13px;
+    place-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.pie:before,
+.pie:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.pie:before {
+    inset: 0;
+    background:
+        radial-gradient(farthest-side, var(--c) 98%, #0000) top/var(--b) var(--b) no-repeat,
+        conic-gradient(var(--c) calc(var(--p)*1%), #0000 0);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+    mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+}
+
+.pie:after {
+    inset: calc(50% - var(--b)/2);
+    background: var(--c);
+    transform: rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+}
