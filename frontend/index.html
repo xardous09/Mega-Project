@@ -1,18 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Equipment Analysis</title>
+  <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('image.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+  gap: 20px;
+  height: 90px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px 40px 0px 0px;
+  border-bottom: 2px solid transparent;
+  font-family: Ligconsolata;
+}
+.navbar a:hover {
+  color: #ffd9c8;
+}
+.tabs {
+  display: flex;
+  margin: 20px;
+}
+.tab {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-bottom: none;
+}
+.tab.active {
+  background-color: white;
+  color: black;
+}
+.form-container {
+  background-color: #ffd9c8;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 753px;
+  height: 480px;
+  text-align: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+.form-container h1 {
+  margin-bottom: 20px;
+  color: black;
+  font-family: Ligconsolata;
+  font-size: 40px;
+  text-align: center;
+}
+form {
+  margin: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 10px;
+}
+.formrow{
+    display: flex;
+}
+.label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  width: 40%;
+  font-family: Ligconsolata;
+}
+label {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-family: Ligconsolata;
+}
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #f5efef;
+  border-radius: 20px;
+  width: 341px;
+  height: 25px;
+  font-family: Ligconsolata;
+}
+.input{
+    width: 60%;
+    font-family: Ligconsolata;
+}
+button {
+  padding: 10px;
+  background-color: #698474;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  font-family: Ligconsolata;
+  margin: 10px;
+}
+button:hover {
+  background-color: #82cda0;
+}
+  </style>
 </head>
 <body>
-    <div>
-        <img src="" alt="background">
-        <header>
-            <a href="#">Home</a>
-            <a href="#">Job Sheduling</a>
-            <a href="#">Model</a>
-        </header>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Job Scheduling</a>
+    <a href="#">Model</a>
+  </div>
+  <div class="container">
+    <div class="tabs">
+      <button class="tab active">Single</button>
+      <button class="tab">Multiple</button>
     </div>
+    <div class="form-container">
+      <h1>Single Equipment Analysis</h1>
+      <form>
+        <div class="formrow">
+            <div class="label">
+                <label>Enter Air Temperature:</label>
+            </div>
+            <div class="input"><input type="text" placeholder="Enter air temperature"></div>
+        </div>
+        <div class="formrow">
+            <div class="label">
+                <label>Enter Process Temperature:</label>
+            </div>
+            <div class="input"><input type="text" placeholder="Enter process temperature"></div>
+        </div>
+        <div class="formrow">
+            <div class="label">
+                <label>Enter Rotational Speed:</label>
+            </div>
+            <div class="input"><input type="text" placeholder="Enter rotational speed"></div>
+        </div>
+        <div class="formrow">
+            <div class="label">
+                <label>Enter Torque:</label>
+            </div>
+            <div class="input"><input type="text" placeholder="Enter torque"></div>
+        </div>
+        <div class="formrow">
+            <div class="label">
+                <label>Enter Tool Wear:</label>
+            </div>
+            <div class="input"><input type="text" placeholder="Enter tool wear"></div>
+        </div>
+        <div class="formrow">
+          <div class="label">
+            <label>Enter Type:</label>
+          </div>
+          <div class="input"><span style="padding-right: 30px;color: #000;"><input type="radio" name="type" id="high" value="high">High</span>
+                             <span style="padding-right: 30px;color: #000;"><input type="radio" name="type" id="medium" value="medium">Medium</span>
+                             <span style="padding-right: 30px;color: #000;"><input type="radio" name="type" id="low" value="low">Low</span>
+          </div>
+       </div>
+       <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
