@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schronance UI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Ligconsolata;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .left-section {
+            background-color: #ffd9c8;
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .left-section h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .left-section p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .explore-button {
+            background-color: #4e715e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .right-section {
+            width: 50%;
+            background: url('image.png') no-repeat center center/cover;
+            position: relative;
+        }
+
+        .right-section-overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: right;
+            margin-top: 20px;
+            gap: 20px;
+            height: 90px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            padding: 10px 40px 0px 0px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .navbar a:hover {
+            color: #ffd9c8;
+        }
+
+        .technologies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .technologies img {
+            width: 200px;
+            height: 210px;
+            margin-top: 10px;
+        }
+
+        .technologies span {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFFFFCC;
+            height: 140px;
+            padding: 20px;
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .footer-icons i {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left-section">
+        <h1>Schronance: <br> Scheduled rowing of equipment maintenance.</h1>
+        <p>A machine learning solution that predicts machinery failures and maintenance needs using usage history, and
+            environmental conditions. It includes a real-time dashboard for monitoring and alerts, helping companies
+            prevent downtime by scheduling maintenance proactively.</p>
+        <a href="#" class="explore-button">Explore</a>
+    </div>
+    <div class="right-section">
+        <div class="right-section-overlay">
+            <div class="navbar">
+                <a href="Home.html">Home</a>
+                <a href="Sheduling.html">Job Scheduling</a>
+                <a href="model.html">Model</a>
+            </div>
+            <div class="technologies">
+                <h2 style="font-size: 30px;">Technologies Used</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/9bff/1c70/b51f732a5fd93bc5889d5d1d16ff4c7c?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fnffNu0gZOyfyfvJBJMwv5tMavrcHqYYoVXELLtpMW3ebbC-RJh9G~lCV2d4qNG-o8C-BYkEWsxXjSunRUObcgkq2GFCFy6hm8yCdEOHNHn8chz5oaWOq9xtDWPQR9PjY5OYeaxvFXvsYYNbwROhLy5V7qxkmrEClE20eJwk9AFbgG~6JiCbdnXOqKUaUOIfpQeZp9v3BZph4mv9d1~lc2XyZtLBcvWYTQ1lWffTW1T2M7yeVjIgZp8wWKhEBs~zh-ny13usIYQZf23YWlNnZATh~i50SQkhog4TauWGJjBC-JgiwAiTpwpQRrL48fMTo~DpfXn0Qk-qpsWMe2vkCw__"
+                    alt="ML Icon">
+                <span>ML Model</span>
+            </div>
+            <div class="footer">
+                <div class="footer-app">
+                    <h2 style="color: #4D4037;">App Used</h2>
+                </div>
+                <div class="footer-icons">
+                    <i><a href=""><img
+                                src="https://s3-alpha-sig.figma.com/img/fdec/cb74/549364d2492490c6d453bd6e58c7807b?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KMoPUt5K7v313v3n27AZRAMaK4poy0~dtivb8asGSXPjjPegPF2Bt5eZYMWtgM3xAq3s-qlhlw6BAv7rG0jIjB~s~Gtq6aUZn1vqokKBluZDYI6imoai8Bbgf~U~wdAthj0aIhYRaMsrQsIm47vcRPjNW8iMdcUq7ozbfz1~Y-FV~kby9oUMkIXaA3g7Hv0WDMhfTH0IOCJdpG~zvuoqP3XAHH2dZtSorFGAatq02fIZweqUquZLmyxE6t5tUO4-XhcfDdfa0Lh6lgOYClSdUKFYrHXJRmFDfkpxzU~uQ9Lr8wVubgTUPYPQfbHwQIVi4I2WeaOfxUvq~hMGDuf2MQ__"
+                                style="width: 70px;height: 70px;"></a></i>
+                    <i><a href=""><img
+                                src="https://s3-alpha-sig.figma.com/img/e4fd/e407/7d375e5b4001a3e4aa49a4312c94bfa5?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mO4KmpqNaD3FmoqN6KU6U9EnK-v6Ks51wcL5H1UzE28LJQ5gzhLVBA7XIFJ7NMn5b4JKHoeHwNzJcCbyJBjJZ5mTWbf25YwMeo2wfsZepmAxiyUSG-LGo32YZFQ9H5DMiT-o71ttr5W6WirXfn6y5NQVxfjAwj~aoVbIzFO~5MSuuIi7~dn8RMpGdQg3QvhCkPWBYnze69rN7lnttqqrBU-IMdvK4s1zHqThqGF58pExohKeLXC7tpQlSGu4UEiBryBck5DoKE71TrLoa6qMW6XiIqH0QBnQk4UuIKDF8bSHztRb2jZZHNX4YUXNeGqn8GX0WQm6VFoEz0xxGXAb5Q__"
+                                style="width: 70px;height: 70px;"></a></i>
+                    <i><a href=""><img
+                                src="https://s3-alpha-sig.figma.com/img/4b6b/60ae/f48d0f53c7e1d9d6e3524c54bd309d24?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZoNe9Z7W5NCdAIVl4DkAnmUu1Wv13i0DDMeaA9SUpErHW5CUTB5mNqFODerxaBtuxGbZWCfvwvNiXNF5L61B46wzBX5T3l6eT35vdbkVHzvmS8RHmKYgjMN~WaxHzaZMpIquDNixWJqFU~EfX-Ipk8mQKcbU3IeSvDLgNr3cKYfZkj2erqP1nwJBFq2UIR7ee80pheg9~lHJA5tU2WTIehfgp680pM806dCyW1vOE20AuV4hv7efuJCYmZwQng0XNjdOP4dWlBmPM0xtXsWiY2ktABZ9~-G6tMWMkMw9ywwnr7OADhNquCq3KNvlLmNKW8mrjiokVjvznmxmekPIKw__"
+                                style="width: 70px;height: 70px;"></a></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
