@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Ligconsolata;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: right;
+            margin-top: 20px;
+            gap: 20px;
+            height: 90px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            padding: 10px 40px 0px 0px;
+            border-bottom: 2px solid transparent;
+            font-family: Ligconsolata;
+        }
+        .navbar a:hover {
+            color: #ffd9c8;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .row-top {
+            grid-column: 1 / span 3;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .row-top .card {
+            height: 130px;
+            width: 30%;
+        }
+        .column-right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            grid-column: 3 / 4;
+            margin-top: 10px;
+        }
+        .bottom-left {
+            grid-column: 1 / span 2;
+            background-color: #ffd9c8;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: -510px;
+            height: 460px;
+        }
+        .bottom-left h2{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        .card {
+            position: relative;
+            background-color: #ffd9c8;
+            padding: 10px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 133px;
+        }
+        .card h2 {
+            font-size: 30px;
+            text-align: left;
+            margin-left: 20px;
+        }
+        .card img {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            bottom: 10px;
+            right: 10px;
+            align-items: right;
+        }
+        .graph-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Sheduling.html">Job Scheduling</a>
+        <a href="#">Model</a>
+    </div>
+    <div class="container">
+        <div class="row-top">
+            <div class="card">
+                <h2>Air Temperature</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/a0fd/d0b4/e1e5ee3f8121c93ade0594e9545952c3?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qbI40WXleP89vi0ga0aH6KsW8AuV8L4kbFI-8Wky56Z-8aHI8wBomwBoj1xEbMXH0pcXnmxFAYgbm-zEO~a-7JS3bAw8r27fvYJ48pA87PJ90oDY550BE3t20B95T0mxsYWqTFhXG35q9LPcKLgyMB1fXiClnzkH3Yn0b-PSTC0Gt2XZrAYFoVsKA9XKjePjPLhvbd4MY5tp2VTvkJdWusiNTOUvmUvg~cENR8rtH8-dpjzSOiQOO0Zt-btruCCBEr8tAETm4Xi4tJFU~vYZ~ouBdGiuMZAXkDaqR7KfeQZpr7Q7LdOpoB8o2DL3MXWdyCQQR-4fo7~lu~m1nrPovA__"
+                    alt="Air Temp Icon"> 
+                <p></p>
+            </div>
+            <div class="card">
+                <h2>Rotational Speed</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/c388/4f85/63fabaf2fd573c92e2f2d6f9bfc21410?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oFGbXq7eBv3mwbUefKfzUM26LDGYyAj4842jCrlHxM-Io~DaSjk3KcO6l9hzUWtnZgy4ecAzXo45kyziAb6axlqebdtRcmCWPwFvRRQVbQNxryWxq41~7Hla6~fQ9wlB7xlnyQjvrJQoemyrumNRKmlBT5Y7DyB0lG9JFiVFJ4rTL7ZRNNYPFPvMRY4dz0YPCTTnxIhxCwsfUDHXRql4BF3Tzb1wmbehCRl2UoP1smEhHKOZxomThIMhoyEq0VB326ybFRZ00dJCei3nLXe-PVvHFOPMi3hy~aael7lgEC1Jtt2t0s20uVaXIUeUFolQACR-FZ4YXvVzAUjtL9GbNg__"
+                    alt="Speed Icon"> 
+                <p></p>
+            </div>
+            <div class="card">
+                <h2>Torque</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/9311/09f0/df525dcd43b26e4b07c98242fed1953f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gYcB7SktFde0oS5UN-7LodDeMVinx7HcEo18K6rpM2X5sHMcT1Eonjv0uN9MckVkFMPcdjOGNqbCS3suwOHzDliuJNkja3JBo5sMUuTFq9gSngul5GjTsjXOQbExHKgtG~2-Ocq-TqmATsMnVRpmMR~1Xxj-ZofLQjXbwyCO52Gwgtn3YKUbs9on4npXXzehYSNfXjC~3Y5rVEl6yZxFX1dm8sJXqOddxNskgEclMJfZIUACAjjpghsbKvMA5nxwQVsfGCRQIo0pu3Br8HHazO5ZkkK37OoShFb5jFB80~wJDz1-w3cgUQY2JAYdrx8wpWcnchauAVr7CUiGtIMD7w__"
+                    alt="Torque Icon"> 
+                <p></p>
+            </div>
+        </div>
+        <div class="column-right">
+            <div class="card">
+                <h2>Tool Wear</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/6eb6/d666/edf210d5c70d3c987164a9ba52f87a16?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=G~a6y~IhiQtaafUS2UT-Ix84CvnpXJnXzZwoxfqiR~UcXbFGoh8GSeYFjEgxk-26I1nHprOVWWNHLlEZ6JweXG8ygaVxjXupbFqAyTpkK~OuUPKnFImvvao5E~PwIwzFVWHA8FyIVfXOOUS1KWSiOg4Tm6niGflXUvAS2Vc6Za3X77EDm9w~yUPfluacys~LLSng4YeZstdlXuCmg710jmuXfAEcEBp4EGRQjYEqHqTJosQiGo6~Zqgu60lNSgyZ2Cs-kAaidA1OJ2K7Ewx3nSrGkajBgosK~WgAZ92TEmNHf~CvQB3YfwE8exLby-kGWrruW0yWwYd5dQ~FqzEfCA__"
+                    alt="Tool Wear Icon"> 
+                <p></p>
+            </div>
+            <div class="card">
+                <h2>Process Temperature</h2>
+                <img src="https://s3-alpha-sig.figma.com/img/1b2d/fd47/7c5575b0a2ea6d17bcd29c4976f050f9?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Got8Jw1OiL-ok4Fxg6vSakrqKumX4bIyHvLakgCyR65JUobOV9wn2kDECyvRKnSirPoKI0O5zzdjs9I2vpeXSE9QZQ7pCn65mKWlQBfpnBX4tZZe73hI5xITZHMrModxvOR8UbpHMs-ikRY8qzrD8tEpgHG--wiDqLZ3BZnt4s1qgdaTPsVWg8DpORzbZuoJH~WggO6kRX6c~PuOgtgSn0RJX~GszFBzZ~-pTXRufk3So2h8erKaV9tBHXDphLMZb-E~hcWMlerW8HA-rOBa8fd8yuVB-j5wzcSshZSoIOVSsYAajPDPV0vtrD-td1qYxHMj15EZvL0STac2jaefTQ__"
+                    alt="Process Temp Icon"> 
+                <p></p>
+            </div>
+            <div class="card">
+                <h2>Type</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="bottom-left">
+            <h2>Prediction</h2>
+            <div class="graph-container">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
