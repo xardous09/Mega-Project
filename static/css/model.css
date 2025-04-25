@@ -10,14 +10,8 @@
 
 }
 
-nav {
-    /* background-color: #A3E3FA; */
-
-}
-
-
 .main {
-    background-image: url('../images/model_bg.jpg');
+    background-image: url('../images/image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -30,10 +24,6 @@ nav {
     width: 97%;
     display: flex;
     top: 0px;
-}
-
-.main_nav a {
-    /* background-color:#A3E3FA */
 }
 
 
@@ -201,6 +191,7 @@ form {
 #model_name {
     font-size: 55px;
     margin-left: 48px;
+    color: #e2e2e2;
 }
 
 .upload_file {

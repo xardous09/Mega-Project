@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scheduling Output</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Scheduling Results</h1>
+
+        <h2>Download Output CSV</h2>
+        <a href="{{ url_for('download_file', filename='output_schedule.csv') }}" download>
+            <button>Download Output CSV</button>
+        </a>
+
+        <h2>Graphs</h2>
+        <div>
+            <h3>Job Scheduling Timeline</h3>
+            <img src="{{ url_for('download_file', filename='schedule_timeline.png') }}" alt="Job Scheduling Timeline">
+        </div>
+
+        <div>
+            <h3>Machine Efficiency</h3>
+            <img src="{{ url_for('download_file', filename='machine_efficiency.png') }}" alt="Machine Efficiency">
+        </div>
+
+        <div>
+            <h3>Breakdown Alerts</h3>
+            <img src="{{ url_for('download_file', filename='breakdown_alerts.png') }}" alt="Breakdown Alerts">
+        </div>
+    </div>
+</body>
+</html>

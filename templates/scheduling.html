@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scheduling Dashboard</title>
+    <link rel="stylesheet" href="../static/css/model.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="main_nav">
+                <div class="logo">
+                    <a href="/"><img src="../static/images/machine_maint.png" id="comp_logo" alt="logo"></a>
+                </div>
+                <div class="menu">
+                    <a href="/">
+                        <div class="options home">Home</div>
+                    </a>
+                    <a href="/model">
+                        <div class="options service">Predictive Maintenance</div>
+                    </a>
+                    <a href="/job-scheduling">
+                        <div class="options about">Job Scheduling</div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content" style="display: flex; flex-direction: column; align-items: center;">
+            <h2 id="model_name">Manufacturing Job Scheduling</h2>
+            <section class="upload_file" style="display: flex; flex-direction: column; align-items: center;">
+                <h2 class="model_name_type">Upload Job Schedule CSV</h2>
+                <form action="/upload-job-list" method="post" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="container">
+                        <div class="card">
+                            <h3>Upload Files</h3>
+                            <div class="drop_box">
+                                <header>
+                                    <h4>Select File here</h4>
+                                </header>
+                                <p>Files Supported: CSV</p>
+                                <input type="file" hidden accept=".csv" name="file" id="upload_csv">
+                                <label for="upload_csv" class="btn">Choose File</label>
+                                <p id="file_name">No file chosen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" id="submit_upload_csv" style="margin-top: 20px;">Submit</button>
+                </form>
+            </section>
+
+            <section class="results" id="results" style="display:none; margin-top: 40px;">
+                <h3>Job Scheduling Summary</h3>
+                <p id="summary_text">Processing...</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="../static/js/model.js"></script>
+</body>
+
+</html>

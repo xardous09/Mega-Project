@@ -1,0 +1,1001 @@
+Job_ID,Assigned_Machine,Scheduled_Start,Estimated_End,Status,Breakdown_Alert
+J001,M01,2023-03-18 08:00:00,2023-03-21 12:00:00,✅ Assigned to M01,
+J002,M04,2023-03-18 08:10:00,2023-03-21 15:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J003,M04,2023-03-18 08:20:00,2023-03-20 16:20:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J004,M04,2023-03-18 08:30:00,2023-03-22 18:30:00,✅ Assigned to M04,
+J005,M04,2023-03-18 08:40:00,2023-03-20 06:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J006,M04,2023-03-18 08:50:00,2023-03-22 12:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J007,M03,2023-03-18 09:00:00,2023-03-19 07:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J008,M05,2023-03-18 09:10:00,2023-03-21 16:10:00,✅ Assigned to M05,
+J009,M03,2023-03-18 09:20:00,2023-03-20 03:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J010,M01,2023-03-18 09:30:00,2023-03-19 12:30:00,✅ Assigned to M01,
+J011,M04,2023-03-18 09:40:00,2023-03-21 02:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J012,M04,2023-03-18 09:50:00,2023-03-19 13:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J013,M03,2023-03-18 10:00:00,2023-03-20 05:00:00,✅ Assigned to M03,
+J014,M04,2023-03-18 10:10:00,2023-03-23 02:10:00,✅ Assigned to M04,
+J015,M05,2023-03-18 10:20:00,2023-03-22 18:20:00,✅ Assigned to M05,
+J016,M01,2023-03-18 10:30:00,2023-03-21 03:30:00,✅ Assigned to M01,
+J017,M04,2023-03-18 10:40:00,2023-03-23 05:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J018,M05,2023-03-18 10:50:00,2023-03-20 17:50:00,✅ Assigned to M05,
+J019,M03,2023-03-18 11:00:00,2023-03-20 15:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J020,M05,2023-03-18 11:10:00,2023-03-20 05:10:00,✅ Assigned to M05,
+J021,M03,2023-03-18 11:20:00,2023-03-22 22:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J022,M03,2023-03-18 11:30:00,2023-03-21 03:30:00,✅ Assigned to M03,
+J023,M03,2023-03-18 11:40:00,2023-03-22 13:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J024,M02,2023-03-18 11:50:00,2023-03-21 23:50:00,✅ Assigned to M02,
+J025,M01,2023-03-18 12:00:00,2023-03-23 11:00:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J026,M01,2023-03-18 12:10:00,2023-03-19 09:10:00,✅ Assigned to M01,
+J027,M04,2023-03-18 12:20:00,2023-03-22 03:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J028,M03,2023-03-18 12:30:00,2023-03-22 09:30:00,✅ Assigned to M03,
+J029,M02,2023-03-18 12:40:00,2023-03-23 08:40:00,✅ Assigned to M02,
+J030,M04,2023-03-18 12:50:00,2023-03-21 06:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J031,M03,2023-03-18 13:00:00,2023-03-20 02:00:00,✅ Assigned to M03,
+J032,M01,2023-03-18 13:10:00,2023-03-21 19:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J033,M01,2023-03-18 13:20:00,2023-03-22 20:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J034,M04,2023-03-18 13:30:00,2023-03-23 03:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J035,M03,2023-03-18 13:40:00,2023-03-20 12:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J036,M04,2023-03-18 13:50:00,2023-03-22 16:50:00,✅ Assigned to M04,
+J037,M03,2023-03-18 14:00:00,2023-03-21 21:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J038,M01,2023-03-18 14:10:00,2023-03-20 09:10:00,✅ Assigned to M01,
+J039,M03,2023-03-18 14:20:00,2023-03-20 14:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J040,M01,2023-03-18 14:30:00,2023-03-20 16:30:00,✅ Assigned to M01,
+J041,M03,2023-03-18 14:40:00,2023-03-22 06:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J042,M04,2023-03-18 14:50:00,2023-03-20 14:50:00,✅ Assigned to M04,
+J043,M04,2023-03-18 15:00:00,2023-03-21 18:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J044,M02,2023-03-18 15:10:00,2023-03-23 04:10:00,✅ Assigned to M02,
+J045,M02,2023-03-18 15:20:00,2023-03-21 21:20:00,✅ Assigned to M02,
+J046,M04,2023-03-18 15:30:00,2023-03-19 21:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J047,M03,2023-03-18 15:40:00,2023-03-19 16:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J048,M02,2023-03-18 15:50:00,2023-03-21 18:50:00,✅ Assigned to M02,
+J049,M04,2023-03-18 16:00:00,2023-03-20 01:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J050,M04,2023-03-18 16:10:00,2023-03-23 00:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J051,M01,2023-03-18 16:20:00,2023-03-19 16:20:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J052,M04,2023-03-18 16:30:00,2023-03-19 15:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J053,M02,2023-03-18 16:40:00,2023-03-22 17:40:00,✅ Assigned to M02,
+J054,M03,2023-03-18 16:50:00,2023-03-21 08:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J055,M05,2023-03-18 17:00:00,2023-03-23 13:00:00,✅ Assigned to M05,
+J056,M03,2023-03-18 17:10:00,2023-03-23 01:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J057,M04,2023-03-18 17:20:00,2023-03-20 00:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J058,M04,2023-03-18 17:30:00,2023-03-22 04:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J059,M04,2023-03-18 17:40:00,2023-03-21 07:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J060,M03,2023-03-18 17:50:00,2023-03-21 11:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J061,M04,2023-03-18 18:00:00,2023-03-23 08:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J062,M04,2023-03-18 18:10:00,2023-03-22 20:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J063,M04,2023-03-18 18:20:00,2023-03-20 17:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J064,M04,2023-03-18 18:30:00,2023-03-21 17:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J065,M04,2023-03-18 18:40:00,2023-03-19 17:40:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J066,M03,2023-03-18 18:50:00,2023-03-20 22:50:00,✅ Assigned to M03,
+J067,M04,2023-03-18 19:00:00,2023-03-19 18:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J068,M04,2023-03-18 19:10:00,2023-03-23 15:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J069,M02,2023-03-18 19:20:00,2023-03-20 00:20:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J070,M03,2023-03-18 19:30:00,2023-03-21 01:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J071,M04,2023-03-18 19:40:00,2023-03-19 20:40:00,✅ Assigned to M04,
+J072,M05,2023-03-18 19:50:00,2023-03-21 15:50:00,✅ Assigned to M05,
+J073,M03,2023-03-18 20:00:00,2023-03-23 12:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J074,M03,2023-03-18 20:10:00,2023-03-21 13:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J075,M04,2023-03-18 20:20:00,2023-03-22 09:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J076,M03,2023-03-18 20:30:00,2023-03-22 23:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J077,M03,2023-03-18 20:40:00,2023-03-21 10:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J078,M03,2023-03-18 20:50:00,2023-03-23 07:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J079,M05,2023-03-18 21:00:00,2023-03-22 09:00:00,✅ Assigned to M05,
+J080,M01,2023-03-18 21:10:00,2023-03-22 07:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J081,M04,2023-03-18 21:20:00,2023-03-21 18:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J082,M01,2023-03-18 21:30:00,2023-03-19 21:30:00,✅ Assigned to M01,
+J083,M01,2023-03-18 21:40:00,2023-03-21 08:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J084,M05,2023-03-18 21:50:00,2023-03-22 02:50:00,✅ Assigned to M05,
+J085,M04,2023-03-18 22:00:00,2023-03-20 18:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J086,M05,2023-03-18 22:10:00,2023-03-22 03:10:00,✅ Assigned to M05,
+J087,M03,2023-03-18 22:20:00,2023-03-21 09:20:00,✅ Assigned to M03,
+J088,M04,2023-03-18 22:30:00,2023-03-21 10:30:00,✅ Assigned to M04,
+J089,M01,2023-03-18 22:40:00,2023-03-21 05:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J090,M02,2023-03-18 22:50:00,2023-03-20 01:50:00,✅ Assigned to M02,
+J091,M04,2023-03-18 23:00:00,2023-03-21 11:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J092,M03,2023-03-18 23:10:00,2023-03-22 17:10:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J093,M03,2023-03-18 23:20:00,2023-03-22 13:20:00,✅ Assigned to M03,
+J094,M04,2023-03-18 23:30:00,2023-03-21 02:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J095,M04,2023-03-18 23:40:00,2023-03-23 16:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J096,M05,2023-03-18 23:50:00,2023-03-23 13:50:00,✅ Assigned to M05,
+J097,M03,2023-03-19 00:00:00,2023-03-21 09:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J098,M03,2023-03-19 00:10:00,2023-03-22 19:10:00,✅ Assigned to M03,
+J099,M04,2023-03-19 00:20:00,2023-03-20 09:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J100,M02,2023-03-19 00:30:00,2023-03-20 03:30:00,✅ Assigned to M02,
+J101,M05,2023-03-19 00:40:00,2023-03-20 13:40:00,✅ Assigned to M05,
+J102,M01,2023-03-19 00:50:00,2023-03-23 14:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J103,M05,2023-03-19 01:00:00,2023-03-23 10:00:00,✅ Assigned to M05,
+J104,M03,2023-03-19 01:10:00,2023-03-21 15:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J105,M04,2023-03-19 01:20:00,2023-03-20 20:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J106,M04,2023-03-19 01:30:00,2023-03-23 12:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J107,M04,2023-03-19 01:40:00,2023-03-23 08:40:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J108,M04,2023-03-19 01:50:00,2023-03-22 07:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J109,M04,2023-03-19 02:00:00,2023-03-23 08:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J110,M04,2023-03-19 02:10:00,2023-03-23 13:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J111,M03,2023-03-19 02:20:00,2023-03-24 01:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J112,M02,2023-03-19 02:30:00,2023-03-22 04:30:00,✅ Assigned to M02,
+J113,M01,2023-03-19 02:40:00,2023-03-23 09:40:00,✅ Assigned to M01,
+J114,M01,2023-03-19 02:50:00,2023-03-23 22:50:00,✅ Assigned to M01,
+J115,M01,2023-03-19 03:00:00,2023-03-23 21:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J116,M03,2023-03-19 03:10:00,2023-03-22 08:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J117,M04,2023-03-19 03:20:00,2023-03-21 22:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J118,M04,2023-03-19 03:30:00,2023-03-21 23:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J119,M03,2023-03-19 03:40:00,2023-03-21 13:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J120,M04,2023-03-19 03:50:00,2023-03-20 12:50:00,✅ Assigned to M04,
+J121,M05,2023-03-19 04:00:00,2023-03-20 19:00:00,✅ Assigned to M05,
+J122,M02,2023-03-19 04:10:00,2023-03-23 10:10:00,✅ Assigned to M02,
+J123,M01,2023-03-19 04:20:00,2023-03-22 17:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J124,M04,2023-03-19 04:30:00,2023-03-20 20:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J125,M02,2023-03-19 04:40:00,2023-03-22 08:40:00,✅ Assigned to M02,
+J126,M01,2023-03-19 04:50:00,2023-03-22 02:50:00,✅ Assigned to M01,
+J127,M02,2023-03-19 05:00:00,2023-03-20 08:00:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J128,M04,2023-03-19 05:10:00,2023-03-20 21:10:00,✅ Assigned to M04,
+J129,M04,2023-03-19 05:20:00,2023-03-21 02:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J130,M02,2023-03-19 05:30:00,2023-03-22 11:30:00,✅ Assigned to M02,
+J131,M04,2023-03-19 05:40:00,2023-03-22 11:40:00,✅ Assigned to M04,
+J132,M04,2023-03-19 05:50:00,2023-03-22 03:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J133,M01,2023-03-19 06:00:00,2023-03-22 19:00:00,✅ Assigned to M01,
+J134,M04,2023-03-19 06:10:00,2023-03-22 05:10:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J135,M03,2023-03-19 06:20:00,2023-03-20 05:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J136,M04,2023-03-19 06:30:00,2023-03-22 12:30:00,✅ Assigned to M04,
+J137,M04,2023-03-19 06:40:00,2023-03-23 01:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J138,M04,2023-03-19 06:50:00,2023-03-21 23:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J139,M03,2023-03-19 07:00:00,2023-03-21 04:00:00,✅ Assigned to M03,
+J140,M03,2023-03-19 07:10:00,2023-03-23 11:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J141,M03,2023-03-19 07:20:00,2023-03-23 11:20:00,✅ Assigned to M03,
+J142,M03,2023-03-19 07:30:00,2023-03-23 21:30:00,✅ Assigned to M03,
+J143,M04,2023-03-19 07:40:00,2023-03-20 16:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J144,M04,2023-03-19 07:50:00,2023-03-21 06:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J145,M05,2023-03-19 08:00:00,2023-03-20 06:00:00,✅ Assigned to M05,
+J146,M01,2023-03-19 08:10:00,2023-03-21 22:10:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J147,M04,2023-03-19 08:20:00,2023-03-20 13:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J148,M04,2023-03-19 08:30:00,2023-03-20 23:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J149,M05,2023-03-19 08:40:00,2023-03-23 12:40:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J150,M04,2023-03-19 08:50:00,2023-03-21 13:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J151,M04,2023-03-19 09:00:00,2023-03-20 05:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J152,M05,2023-03-19 09:10:00,2023-03-23 19:10:00,✅ Assigned to M05,
+J153,M04,2023-03-19 09:20:00,2023-03-22 03:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J154,M04,2023-03-19 09:30:00,2023-03-24 00:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J155,M01,2023-03-19 09:40:00,2023-03-21 01:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J156,M04,2023-03-19 09:50:00,2023-03-22 06:50:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J157,M03,2023-03-19 10:00:00,2023-03-21 21:00:00,✅ Assigned to M03,
+J158,M03,2023-03-19 10:10:00,2023-03-24 03:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J159,M03,2023-03-19 10:20:00,2023-03-21 08:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J160,M03,2023-03-19 10:30:00,2023-03-24 08:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J161,M03,2023-03-19 10:40:00,2023-03-21 16:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J162,M01,2023-03-19 10:50:00,2023-03-21 20:50:00,✅ Assigned to M01,
+J163,M03,2023-03-19 11:00:00,2023-03-21 06:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J164,M05,2023-03-19 11:10:00,2023-03-21 19:10:00,✅ Assigned to M05,
+J165,M03,2023-03-19 11:20:00,2023-03-20 16:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J166,M04,2023-03-19 11:30:00,2023-03-22 00:30:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J167,M01,2023-03-19 11:40:00,2023-03-20 22:40:00,✅ Assigned to M01,
+J168,M03,2023-03-19 11:50:00,2023-03-21 00:50:00,✅ Assigned to M03,
+J169,M03,2023-03-19 12:00:00,2023-03-20 11:00:00,✅ Assigned to M03,
+J170,M03,2023-03-19 12:10:00,2023-03-23 18:10:00,✅ Assigned to M03,
+J171,M03,2023-03-19 12:20:00,2023-03-22 12:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J172,M04,2023-03-19 12:30:00,2023-03-22 21:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J173,M04,2023-03-19 12:40:00,2023-03-22 04:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J174,M04,2023-03-19 12:50:00,2023-03-24 05:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J175,M04,2023-03-19 13:00:00,2023-03-21 05:00:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J176,M05,2023-03-19 13:10:00,2023-03-23 17:10:00,✅ Assigned to M05,
+J177,M02,2023-03-19 13:20:00,2023-03-23 14:20:00,✅ Assigned to M02,
+J178,M03,2023-03-19 13:30:00,2023-03-22 23:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J179,M04,2023-03-19 13:40:00,2023-03-23 12:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J180,M04,2023-03-19 13:50:00,2023-03-22 10:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J181,M03,2023-03-19 14:00:00,2023-03-23 13:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J182,M03,2023-03-19 14:10:00,2023-03-22 21:10:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J183,M03,2023-03-19 14:20:00,2023-03-24 00:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J184,M04,2023-03-19 14:30:00,2023-03-23 07:30:00,✅ Assigned to M04,
+J185,M01,2023-03-19 14:40:00,2023-03-21 16:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J186,M03,2023-03-19 14:50:00,2023-03-22 12:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J187,M02,2023-03-19 15:00:00,2023-03-24 05:00:00,🔁 Reassigned to spare machine M02,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J188,M04,2023-03-19 15:10:00,2023-03-23 09:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J189,M01,2023-03-19 15:20:00,2023-03-21 17:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J190,M04,2023-03-19 15:30:00,2023-03-21 17:30:00,✅ Assigned to M04,
+J191,M03,2023-03-19 15:40:00,2023-03-24 09:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J192,M01,2023-03-19 15:50:00,2023-03-23 19:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J193,M03,2023-03-19 16:00:00,2023-03-23 00:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J194,M03,2023-03-19 16:10:00,2023-03-22 01:10:00,✅ Assigned to M03,
+J195,M03,2023-03-19 16:20:00,2023-03-23 08:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J196,M02,2023-03-19 16:30:00,2023-03-22 00:30:00,✅ Assigned to M02,
+J197,M03,2023-03-19 16:40:00,2023-03-20 13:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J198,M04,2023-03-19 16:50:00,2023-03-22 18:50:00,✅ Assigned to M04,
+J199,M04,2023-03-19 17:00:00,2023-03-23 11:00:00,✅ Assigned to M04,
+J200,M02,2023-03-19 17:10:00,2023-03-23 05:10:00,✅ Assigned to M02,
+J201,M04,2023-03-19 17:20:00,2023-03-21 21:20:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J202,M03,2023-03-19 17:30:00,2023-03-23 03:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J203,M04,2023-03-19 17:40:00,2023-03-22 06:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J204,M04,2023-03-19 17:50:00,2023-03-24 10:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J205,M03,2023-03-19 18:00:00,2023-03-23 11:00:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J206,M04,2023-03-19 18:10:00,2023-03-23 11:10:00,✅ Assigned to M04,
+J207,M03,2023-03-19 18:20:00,2023-03-20 15:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J208,M04,2023-03-19 18:30:00,2023-03-20 14:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J209,M04,2023-03-19 18:40:00,2023-03-24 04:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J210,M03,2023-03-19 18:50:00,2023-03-22 22:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J211,M04,2023-03-19 19:00:00,2023-03-20 20:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J212,M01,2023-03-19 19:10:00,2023-03-23 19:10:00,✅ Assigned to M01,
+J213,M04,2023-03-19 19:20:00,2023-03-22 00:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J214,M01,2023-03-19 19:30:00,2023-03-21 07:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J215,M02,2023-03-19 19:40:00,2023-03-21 14:40:00,✅ Assigned to M02,
+J216,M01,2023-03-19 19:50:00,2023-03-21 13:50:00,✅ Assigned to M01,
+J217,M02,2023-03-19 20:00:00,2023-03-24 09:00:00,✅ Assigned to M02,
+J218,M04,2023-03-19 20:10:00,2023-03-22 19:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J219,M05,2023-03-19 20:20:00,2023-03-24 07:20:00,✅ Assigned to M05,
+J220,M03,2023-03-19 20:30:00,2023-03-22 18:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J221,M03,2023-03-19 20:40:00,2023-03-23 19:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J222,M04,2023-03-19 20:50:00,2023-03-24 19:50:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J223,M01,2023-03-19 21:00:00,2023-03-22 07:00:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J224,M05,2023-03-19 21:10:00,2023-03-23 10:10:00,✅ Assigned to M05,
+J225,M04,2023-03-19 21:20:00,2023-03-20 19:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J226,M01,2023-03-19 21:30:00,2023-03-24 06:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J227,M03,2023-03-19 21:40:00,2023-03-24 10:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J228,M04,2023-03-19 21:50:00,2023-03-23 02:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J229,M03,2023-03-19 22:00:00,2023-03-22 09:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J230,M03,2023-03-19 22:10:00,2023-03-22 15:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J231,M04,2023-03-19 22:20:00,2023-03-21 10:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J232,M01,2023-03-19 22:30:00,2023-03-24 08:30:00,✅ Assigned to M01,
+J233,M03,2023-03-19 22:40:00,2023-03-23 14:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J234,M01,2023-03-19 22:50:00,2023-03-24 13:50:00,✅ Assigned to M01,
+J235,M04,2023-03-19 23:00:00,2023-03-22 07:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J236,M02,2023-03-19 23:10:00,2023-03-21 01:10:00,✅ Assigned to M02,
+J237,M04,2023-03-19 23:20:00,2023-03-23 10:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J238,M04,2023-03-19 23:30:00,2023-03-23 22:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J239,M03,2023-03-19 23:40:00,2023-03-23 16:40:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J240,M02,2023-03-19 23:50:00,2023-03-20 21:50:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J241,M01,2023-03-20 00:00:00,2023-03-23 23:00:00,✅ Assigned to M01,
+J242,M05,2023-03-20 00:10:00,2023-03-24 06:10:00,✅ Assigned to M05,
+J243,M04,2023-03-20 00:20:00,2023-03-22 08:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J244,M03,2023-03-20 00:30:00,2023-03-21 18:30:00,✅ Assigned to M03,
+J245,M04,2023-03-20 00:40:00,2023-03-21 01:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J246,M03,2023-03-20 00:50:00,2023-03-21 16:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J247,M02,2023-03-20 01:00:00,2023-03-23 13:00:00,✅ Assigned to M02,
+J248,M01,2023-03-20 01:10:00,2023-03-22 04:10:00,✅ Assigned to M01,
+J249,M03,2023-03-20 01:20:00,2023-03-22 20:20:00,✅ Assigned to M03,
+J250,M02,2023-03-20 01:30:00,2023-03-23 08:30:00,✅ Assigned to M02,
+J251,M03,2023-03-20 01:40:00,2023-03-20 22:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J252,M05,2023-03-20 01:50:00,2023-03-21 15:50:00,✅ Assigned to M05,
+J253,M03,2023-03-20 02:00:00,2023-03-21 21:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J254,M05,2023-03-20 02:10:00,2023-03-21 16:10:00,✅ Assigned to M05,
+J255,M04,2023-03-20 02:20:00,2023-03-21 16:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J256,M04,2023-03-20 02:30:00,2023-03-22 14:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J257,M04,2023-03-20 02:40:00,2023-03-25 02:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J258,M03,2023-03-20 02:50:00,2023-03-21 06:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J259,M03,2023-03-20 03:00:00,2023-03-21 03:00:00,✅ Assigned to M03,
+J260,M04,2023-03-20 03:10:00,2023-03-22 02:10:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J261,M03,2023-03-20 03:20:00,2023-03-24 11:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J262,M04,2023-03-20 03:30:00,2023-03-24 21:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J263,M01,2023-03-20 03:40:00,2023-03-21 17:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J264,M01,2023-03-20 03:50:00,2023-03-23 03:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J265,M03,2023-03-20 04:00:00,2023-03-24 05:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J266,M05,2023-03-20 04:10:00,2023-03-24 04:10:00,✅ Assigned to M05,
+J267,M03,2023-03-20 04:20:00,2023-03-24 09:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J268,M04,2023-03-20 04:30:00,2023-03-24 13:30:00,✅ Assigned to M04,
+J269,M04,2023-03-20 04:40:00,2023-03-21 05:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J270,M03,2023-03-20 04:50:00,2023-03-23 07:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J271,M04,2023-03-20 05:00:00,2023-03-21 02:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J272,M01,2023-03-20 05:10:00,2023-03-22 12:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J273,M03,2023-03-20 05:20:00,2023-03-23 11:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J274,M05,2023-03-20 05:30:00,2023-03-21 01:30:00,✅ Assigned to M05,
+J275,M03,2023-03-20 05:40:00,2023-03-24 03:40:00,✅ Assigned to M03,
+J276,M02,2023-03-20 05:50:00,2023-03-23 11:50:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J277,M04,2023-03-20 06:00:00,2023-03-23 10:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J278,M03,2023-03-20 06:10:00,2023-03-22 16:10:00,✅ Assigned to M03,
+J279,M03,2023-03-20 06:20:00,2023-03-22 22:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J280,M03,2023-03-20 06:30:00,2023-03-23 00:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J281,M03,2023-03-20 06:40:00,2023-03-22 17:40:00,✅ Assigned to M03,
+J282,M04,2023-03-20 06:50:00,2023-03-21 12:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J283,M01,2023-03-20 07:00:00,2023-03-21 20:00:00,✅ Assigned to M01,
+J284,M04,2023-03-20 07:10:00,2023-03-23 06:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J285,M04,2023-03-20 07:20:00,2023-03-24 17:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J286,M04,2023-03-20 07:30:00,2023-03-24 18:30:00,✅ Assigned to M04,
+J287,M04,2023-03-20 07:40:00,2023-03-24 06:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J288,M04,2023-03-20 07:50:00,2023-03-21 19:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J289,M04,2023-03-20 08:00:00,2023-03-24 09:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J290,M05,2023-03-20 08:10:00,2023-03-23 17:10:00,✅ Assigned to M05,
+J291,M03,2023-03-20 08:20:00,2023-03-21 10:20:00,✅ Assigned to M03,
+J292,M04,2023-03-20 08:30:00,2023-03-24 05:30:00,✅ Assigned to M04,
+J293,M03,2023-03-20 08:40:00,2023-03-24 15:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J294,M01,2023-03-20 08:50:00,2023-03-24 02:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J295,M02,2023-03-20 09:00:00,2023-03-22 00:00:00,✅ Assigned to M02,
+J296,M04,2023-03-20 09:10:00,2023-03-23 13:10:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J297,M04,2023-03-20 09:20:00,2023-03-23 16:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J298,M04,2023-03-20 09:30:00,2023-03-25 05:30:00,✅ Assigned to M04,
+J299,M03,2023-03-20 09:40:00,2023-03-21 08:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J300,M04,2023-03-20 09:50:00,2023-03-21 05:50:00,✅ Assigned to M04,
+J301,M02,2023-03-20 10:00:00,2023-03-24 01:00:00,✅ Assigned to M02,
+J302,M04,2023-03-20 10:10:00,2023-03-22 14:10:00,✅ Assigned to M04,
+J303,M05,2023-03-20 10:20:00,2023-03-22 00:20:00,✅ Assigned to M05,
+J304,M03,2023-03-20 10:30:00,2023-03-23 13:30:00,✅ Assigned to M03,
+J305,M04,2023-03-20 10:40:00,2023-03-24 03:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J306,M03,2023-03-20 10:50:00,2023-03-23 15:50:00,✅ Assigned to M03,
+J307,M02,2023-03-20 11:00:00,2023-03-24 04:00:00,✅ Assigned to M02,
+J308,M04,2023-03-20 11:10:00,2023-03-22 13:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J309,M04,2023-03-20 11:20:00,2023-03-23 10:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J310,M04,2023-03-20 11:30:00,2023-03-22 13:30:00,✅ Assigned to M04,
+J311,M03,2023-03-20 11:40:00,2023-03-24 00:40:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J312,M04,2023-03-20 11:50:00,2023-03-24 10:50:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J313,M05,2023-03-20 12:00:00,2023-03-22 23:00:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J314,M04,2023-03-20 12:10:00,2023-03-25 05:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J315,M05,2023-03-20 12:20:00,2023-03-22 15:20:00,✅ Assigned to M05,
+J316,M03,2023-03-20 12:30:00,2023-03-24 21:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J317,M04,2023-03-20 12:40:00,2023-03-23 10:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J318,M02,2023-03-20 12:50:00,2023-03-24 03:50:00,✅ Assigned to M02,
+J319,M04,2023-03-20 13:00:00,2023-03-21 12:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J320,M04,2023-03-20 13:10:00,2023-03-22 04:10:00,✅ Assigned to M04,
+J321,M01,2023-03-20 13:20:00,2023-03-23 11:20:00,✅ Assigned to M01,
+J322,M04,2023-03-20 13:30:00,2023-03-23 21:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J323,M01,2023-03-20 13:40:00,2023-03-24 07:40:00,✅ Assigned to M01,
+J324,M05,2023-03-20 13:50:00,2023-03-21 10:50:00,✅ Assigned to M05,
+J325,M04,2023-03-20 14:00:00,2023-03-25 06:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J326,M01,2023-03-20 14:10:00,2023-03-23 02:10:00,✅ Assigned to M01,
+J327,M04,2023-03-20 14:20:00,2023-03-23 15:20:00,✅ Assigned to M04,
+J328,M03,2023-03-20 14:30:00,2023-03-22 23:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J329,M04,2023-03-20 14:40:00,2023-03-23 16:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J330,M04,2023-03-20 14:50:00,2023-03-22 20:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J331,M04,2023-03-20 15:00:00,2023-03-21 18:00:00,✅ Assigned to M04,
+J332,M04,2023-03-20 15:10:00,2023-03-25 09:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J333,M04,2023-03-20 15:20:00,2023-03-23 04:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J334,M03,2023-03-20 15:30:00,2023-03-23 10:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J335,M04,2023-03-20 15:40:00,2023-03-23 02:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J336,M04,2023-03-20 15:50:00,2023-03-21 16:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J337,M02,2023-03-20 16:00:00,2023-03-23 22:00:00,✅ Assigned to M02,
+J338,M01,2023-03-20 16:10:00,2023-03-23 15:10:00,✅ Assigned to M01,
+J339,M03,2023-03-20 16:20:00,2023-03-23 18:20:00,✅ Assigned to M03,
+J340,M05,2023-03-20 16:30:00,2023-03-23 02:30:00,✅ Assigned to M05,
+J341,M03,2023-03-20 16:40:00,2023-03-24 16:40:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J342,M04,2023-03-20 16:50:00,2023-03-25 14:50:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J343,M04,2023-03-20 17:00:00,2023-03-24 21:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J344,M04,2023-03-20 17:10:00,2023-03-24 15:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J345,M04,2023-03-20 17:20:00,2023-03-22 06:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J346,M03,2023-03-20 17:30:00,2023-03-21 22:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J347,M01,2023-03-20 17:40:00,2023-03-23 18:40:00,✅ Assigned to M01,
+J348,M02,2023-03-20 17:50:00,2023-03-24 13:50:00,✅ Assigned to M02,
+J349,M04,2023-03-20 18:00:00,2023-03-24 08:00:00,✅ Assigned to M04,
+J350,M03,2023-03-20 18:10:00,2023-03-23 23:10:00,✅ Assigned to M03,
+J351,M02,2023-03-20 18:20:00,2023-03-22 21:20:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J352,M04,2023-03-20 18:30:00,2023-03-24 15:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J353,M04,2023-03-20 18:40:00,2023-03-22 06:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J354,M04,2023-03-20 18:50:00,2023-03-23 07:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J355,M01,2023-03-20 19:00:00,2023-03-24 10:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J356,M04,2023-03-20 19:10:00,2023-03-25 00:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J357,M05,2023-03-20 19:20:00,2023-03-25 15:20:00,✅ Assigned to M05,
+J358,M01,2023-03-20 19:30:00,2023-03-23 13:30:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J359,M04,2023-03-20 19:40:00,2023-03-24 13:40:00,✅ Assigned to M04,
+J360,M05,2023-03-20 19:50:00,2023-03-22 00:50:00,✅ Assigned to M05,
+J361,M03,2023-03-20 20:00:00,2023-03-24 07:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J362,M03,2023-03-20 20:10:00,2023-03-22 22:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J363,M03,2023-03-20 20:20:00,2023-03-25 18:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J364,M04,2023-03-20 20:30:00,2023-03-25 15:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J365,M05,2023-03-20 20:40:00,2023-03-25 06:40:00,✅ Assigned to M05,
+J366,M03,2023-03-20 20:50:00,2023-03-22 19:50:00,✅ Assigned to M03,
+J367,M05,2023-03-20 21:00:00,2023-03-22 11:00:00,✅ Assigned to M05,
+J368,M04,2023-03-20 21:10:00,2023-03-23 12:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J369,M01,2023-03-20 21:20:00,2023-03-24 01:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J370,M04,2023-03-20 21:30:00,2023-03-22 20:30:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J371,M04,2023-03-20 21:40:00,2023-03-22 05:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J372,M04,2023-03-20 21:50:00,2023-03-24 03:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J373,M04,2023-03-20 22:00:00,2023-03-24 21:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J374,M02,2023-03-20 22:10:00,2023-03-22 22:10:00,✅ Assigned to M02,
+J375,M04,2023-03-20 22:20:00,2023-03-25 12:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J376,M03,2023-03-20 22:30:00,2023-03-23 02:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J377,M02,2023-03-20 22:40:00,2023-03-23 11:40:00,✅ Assigned to M02,
+J378,M01,2023-03-20 22:50:00,2023-03-23 13:50:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J379,M04,2023-03-20 23:00:00,2023-03-22 22:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J380,M02,2023-03-20 23:10:00,2023-03-22 21:10:00,✅ Assigned to M02,
+J381,M04,2023-03-20 23:20:00,2023-03-24 16:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J382,M04,2023-03-20 23:30:00,2023-03-23 23:30:00,✅ Assigned to M04,
+J383,M04,2023-03-20 23:40:00,2023-03-23 16:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J384,M01,2023-03-20 23:50:00,2023-03-23 01:50:00,✅ Assigned to M01,
+J385,M03,2023-03-21 00:00:00,2023-03-23 11:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J386,M04,2023-03-21 00:10:00,2023-03-24 01:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J387,M01,2023-03-21 00:20:00,2023-03-22 18:20:00,✅ Assigned to M01,
+J388,M05,2023-03-21 00:30:00,2023-03-22 00:30:00,✅ Assigned to M05,
+J389,M04,2023-03-21 00:40:00,2023-03-23 23:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J390,M04,2023-03-21 00:50:00,2023-03-24 04:50:00,✅ Assigned to M04,
+J391,M04,2023-03-21 01:00:00,2023-03-22 12:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J392,M03,2023-03-21 01:10:00,2023-03-25 01:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J393,M01,2023-03-21 01:20:00,2023-03-23 22:20:00,✅ Assigned to M01,
+J394,M02,2023-03-21 01:30:00,2023-03-24 03:30:00,✅ Assigned to M02,
+J395,M04,2023-03-21 01:40:00,2023-03-23 19:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J396,M03,2023-03-21 01:50:00,2023-03-23 20:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J397,M04,2023-03-21 02:00:00,2023-03-22 01:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J398,M04,2023-03-21 02:10:00,2023-03-24 12:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J399,M05,2023-03-21 02:20:00,2023-03-24 10:20:00,✅ Assigned to M05,
+J400,M02,2023-03-21 02:30:00,2023-03-22 02:30:00,✅ Assigned to M02,
+J401,M04,2023-03-21 02:40:00,2023-03-23 03:40:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J402,M04,2023-03-21 02:50:00,2023-03-25 19:50:00,✅ Assigned to M04,
+J403,M05,2023-03-21 03:00:00,2023-03-25 20:00:00,✅ Assigned to M05,
+J404,M01,2023-03-21 03:10:00,2023-03-24 20:10:00,✅ Assigned to M01,
+J405,M01,2023-03-21 03:20:00,2023-03-25 07:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J406,M03,2023-03-21 03:30:00,2023-03-24 18:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J407,M03,2023-03-21 03:40:00,2023-03-26 03:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J408,M01,2023-03-21 03:50:00,2023-03-23 09:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J409,M04,2023-03-21 04:00:00,2023-03-22 11:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J410,M05,2023-03-21 04:10:00,2023-03-25 01:10:00,✅ Assigned to M05,
+J411,M03,2023-03-21 04:20:00,2023-03-25 04:20:00,✅ Assigned to M03,
+J412,M04,2023-03-21 04:30:00,2023-03-23 02:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J413,M04,2023-03-21 04:40:00,2023-03-22 02:40:00,✅ Assigned to M04,
+J414,M04,2023-03-21 04:50:00,2023-03-22 11:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J415,M02,2023-03-21 05:00:00,2023-03-22 14:00:00,✅ Assigned to M02,
+J416,M01,2023-03-21 05:10:00,2023-03-25 16:10:00,✅ Assigned to M01,
+J417,M01,2023-03-21 05:20:00,2023-03-23 07:20:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J418,M01,2023-03-21 05:30:00,2023-03-22 21:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J419,M04,2023-03-21 05:40:00,2023-03-23 00:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J420,M04,2023-03-21 05:50:00,2023-03-26 00:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J421,M03,2023-03-21 06:00:00,2023-03-25 06:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J422,M04,2023-03-21 06:10:00,2023-03-26 05:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J423,M04,2023-03-21 06:20:00,2023-03-25 15:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J424,M03,2023-03-21 06:30:00,2023-03-23 22:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J425,M02,2023-03-21 06:40:00,2023-03-25 20:40:00,✅ Assigned to M02,
+J426,M05,2023-03-21 06:50:00,2023-03-24 08:50:00,✅ Assigned to M05,
+J427,M05,2023-03-21 07:00:00,2023-03-23 23:00:00,✅ Assigned to M05,
+J428,M03,2023-03-21 07:10:00,2023-03-22 20:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J429,M03,2023-03-21 07:20:00,2023-03-23 19:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J430,M04,2023-03-21 07:30:00,2023-03-23 03:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J431,M04,2023-03-21 07:40:00,2023-03-23 07:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J432,M03,2023-03-21 07:50:00,2023-03-25 16:50:00,✅ Assigned to M03,
+J433,M03,2023-03-21 08:00:00,2023-03-23 06:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J434,M04,2023-03-21 08:10:00,2023-03-24 23:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J435,M04,2023-03-21 08:20:00,2023-03-23 11:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J436,M04,2023-03-21 08:30:00,2023-03-23 19:30:00,✅ Assigned to M04,
+J437,M04,2023-03-21 08:40:00,2023-03-23 17:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J438,M03,2023-03-21 08:50:00,2023-03-25 21:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J439,M02,2023-03-21 09:00:00,2023-03-26 04:00:00,✅ Assigned to M02,
+J440,M01,2023-03-21 09:10:00,2023-03-25 11:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J441,M03,2023-03-21 09:20:00,2023-03-23 23:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J442,M03,2023-03-21 09:30:00,2023-03-25 10:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J443,M03,2023-03-21 09:40:00,2023-03-25 22:40:00,✅ Assigned to M03,
+J444,M04,2023-03-21 09:50:00,2023-03-23 17:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J445,M04,2023-03-21 10:00:00,2023-03-23 18:00:00,✅ Assigned to M04,
+J446,M03,2023-03-21 10:10:00,2023-03-24 00:10:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J447,M03,2023-03-21 10:20:00,2023-03-24 11:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J448,M03,2023-03-21 10:30:00,2023-03-23 16:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J449,M04,2023-03-21 10:40:00,2023-03-26 08:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J450,M05,2023-03-21 10:50:00,2023-03-25 09:50:00,✅ Assigned to M05,
+J451,M01,2023-03-21 11:00:00,2023-03-26 00:00:00,✅ Assigned to M01,
+J452,M02,2023-03-21 11:10:00,2023-03-26 01:10:00,✅ Assigned to M02,
+J453,M03,2023-03-21 11:20:00,2023-03-26 04:20:00,✅ Assigned to M03,
+J454,M03,2023-03-21 11:30:00,2023-03-23 18:30:00,✅ Assigned to M03,
+J455,M01,2023-03-21 11:40:00,2023-03-25 22:40:00,✅ Assigned to M01,
+J456,M03,2023-03-21 11:50:00,2023-03-24 14:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J457,M02,2023-03-21 12:00:00,2023-03-25 17:00:00,✅ Assigned to M02,
+J458,M04,2023-03-21 12:10:00,2023-03-26 02:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J459,M04,2023-03-21 12:20:00,2023-03-25 09:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J460,M01,2023-03-21 12:30:00,2023-03-25 21:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J461,M02,2023-03-21 12:40:00,2023-03-23 14:40:00,✅ Assigned to M02,
+J462,M04,2023-03-21 12:50:00,2023-03-23 10:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J463,M04,2023-03-21 13:00:00,2023-03-22 17:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J464,M02,2023-03-21 13:10:00,2023-03-25 09:10:00,✅ Assigned to M02,
+J465,M03,2023-03-21 13:20:00,2023-03-22 17:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J466,M03,2023-03-21 13:30:00,2023-03-22 10:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J467,M01,2023-03-21 13:40:00,2023-03-23 02:40:00,✅ Assigned to M01,
+J468,M03,2023-03-21 13:50:00,2023-03-23 07:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J469,M04,2023-03-21 14:00:00,2023-03-26 13:00:00,✅ Assigned to M04,
+J470,M03,2023-03-21 14:10:00,2023-03-23 22:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J471,M04,2023-03-21 14:20:00,2023-03-22 12:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J472,M02,2023-03-21 14:30:00,2023-03-24 21:30:00,✅ Assigned to M02,
+J473,M01,2023-03-21 14:40:00,2023-03-24 22:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J474,M01,2023-03-21 14:50:00,2023-03-23 18:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J475,M01,2023-03-21 15:00:00,2023-03-26 01:00:00,✅ Assigned to M01,
+J476,M04,2023-03-21 15:10:00,2023-03-25 02:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J477,M01,2023-03-21 15:20:00,2023-03-23 02:20:00,✅ Assigned to M01,
+J478,M03,2023-03-21 15:30:00,2023-03-23 01:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J479,M02,2023-03-21 15:40:00,2023-03-24 09:40:00,✅ Assigned to M02,
+J480,M04,2023-03-21 15:50:00,2023-03-23 21:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J481,M04,2023-03-21 16:00:00,2023-03-23 06:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J482,M02,2023-03-21 16:10:00,2023-03-24 17:10:00,✅ Assigned to M02,
+J483,M04,2023-03-21 16:20:00,2023-03-23 01:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J484,M02,2023-03-21 16:30:00,2023-03-26 07:30:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J485,M03,2023-03-21 16:40:00,2023-03-23 02:40:00,✅ Assigned to M03,
+J486,M04,2023-03-21 16:50:00,2023-03-23 21:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J487,M01,2023-03-21 17:00:00,2023-03-25 21:00:00,✅ Assigned to M01,
+J488,M05,2023-03-21 17:10:00,2023-03-25 16:10:00,✅ Assigned to M05,
+J489,M04,2023-03-21 17:20:00,2023-03-23 06:20:00,✅ Assigned to M04,
+J490,M05,2023-03-21 17:30:00,2023-03-25 02:30:00,✅ Assigned to M05,
+J491,M01,2023-03-21 17:40:00,2023-03-23 05:40:00,✅ Assigned to M01,
+J492,M04,2023-03-21 17:50:00,2023-03-24 10:50:00,✅ Assigned to M04,
+J493,M04,2023-03-21 18:00:00,2023-03-25 22:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J494,M05,2023-03-21 18:10:00,2023-03-24 17:10:00,✅ Assigned to M05,
+J495,M01,2023-03-21 18:20:00,2023-03-23 14:20:00,✅ Assigned to M01,
+J496,M03,2023-03-21 18:30:00,2023-03-23 08:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J497,M01,2023-03-21 18:40:00,2023-03-22 17:40:00,✅ Assigned to M01,
+J498,M03,2023-03-21 18:50:00,2023-03-25 19:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J499,M04,2023-03-21 19:00:00,2023-03-24 16:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J500,M04,2023-03-21 19:10:00,2023-03-23 19:10:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J501,M02,2023-03-21 19:20:00,2023-03-23 19:20:00,✅ Assigned to M02,
+J502,M05,2023-03-21 19:30:00,2023-03-25 14:30:00,✅ Assigned to M05,
+J503,M04,2023-03-21 19:40:00,2023-03-25 13:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J504,M04,2023-03-21 19:50:00,2023-03-25 04:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J505,M03,2023-03-21 20:00:00,2023-03-24 22:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J506,M03,2023-03-21 20:10:00,2023-03-26 17:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J507,M03,2023-03-21 20:20:00,2023-03-22 18:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J508,M01,2023-03-21 20:30:00,2023-03-25 01:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J509,M04,2023-03-21 20:40:00,2023-03-26 03:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J510,M03,2023-03-21 20:50:00,2023-03-24 09:50:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J511,M04,2023-03-21 21:00:00,2023-03-24 23:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J512,M04,2023-03-21 21:10:00,2023-03-25 23:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J513,M03,2023-03-21 21:20:00,2023-03-24 21:20:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J514,M04,2023-03-21 21:30:00,2023-03-26 17:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J515,M04,2023-03-21 21:40:00,2023-03-23 13:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J516,M03,2023-03-21 21:50:00,2023-03-23 23:50:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J517,M01,2023-03-21 22:00:00,2023-03-24 16:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J518,M04,2023-03-21 22:10:00,2023-03-24 11:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J519,M03,2023-03-21 22:20:00,2023-03-25 22:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J520,M04,2023-03-21 22:30:00,2023-03-23 08:30:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J521,M03,2023-03-21 22:40:00,2023-03-24 12:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J522,M01,2023-03-21 22:50:00,2023-03-22 22:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J523,M04,2023-03-21 23:00:00,2023-03-24 03:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J524,M03,2023-03-21 23:10:00,2023-03-24 13:10:00,✅ Assigned to M03,
+J525,M03,2023-03-21 23:20:00,2023-03-25 19:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J526,M02,2023-03-21 23:30:00,2023-03-25 03:30:00,✅ Assigned to M02,
+J527,M01,2023-03-21 23:40:00,2023-03-24 18:40:00,✅ Assigned to M01,
+J528,M04,2023-03-21 23:50:00,2023-03-23 03:50:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J529,M03,2023-03-22 00:00:00,2023-03-26 06:00:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J530,M03,2023-03-22 00:10:00,2023-03-25 15:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J531,M01,2023-03-22 00:20:00,2023-03-25 18:20:00,✅ Assigned to M01,
+J532,M04,2023-03-22 00:30:00,2023-03-26 10:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J533,M01,2023-03-22 00:40:00,2023-03-26 16:40:00,✅ Assigned to M01,
+J534,M04,2023-03-22 00:50:00,2023-03-24 13:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J535,M03,2023-03-22 01:00:00,2023-03-23 22:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J536,M04,2023-03-22 01:10:00,2023-03-26 05:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J537,M04,2023-03-22 01:20:00,2023-03-24 01:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J538,M04,2023-03-22 01:30:00,2023-03-25 04:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J539,M01,2023-03-22 01:40:00,2023-03-26 21:40:00,✅ Assigned to M01,
+J540,M05,2023-03-22 01:50:00,2023-03-24 13:50:00,✅ Assigned to M05,
+J541,M04,2023-03-22 02:00:00,2023-03-24 07:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J542,M01,2023-03-22 02:10:00,2023-03-24 01:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J543,M04,2023-03-22 02:20:00,2023-03-25 17:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J544,M04,2023-03-22 02:30:00,2023-03-25 19:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J545,M04,2023-03-22 02:40:00,2023-03-24 04:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J546,M01,2023-03-22 02:50:00,2023-03-26 01:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J547,M04,2023-03-22 03:00:00,2023-03-26 07:00:00,✅ Assigned to M04,
+J548,M04,2023-03-22 03:10:00,2023-03-23 00:10:00,✅ Assigned to M04,
+J549,M02,2023-03-22 03:20:00,2023-03-24 16:20:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J550,M02,2023-03-22 03:30:00,2023-03-23 10:30:00,✅ Assigned to M02,
+J551,M01,2023-03-22 03:40:00,2023-03-25 16:40:00,✅ Assigned to M01,
+J552,M04,2023-03-22 03:50:00,2023-03-24 23:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J553,M04,2023-03-22 04:00:00,2023-03-24 19:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J554,M04,2023-03-22 04:10:00,2023-03-26 01:10:00,✅ Assigned to M04,
+J555,M02,2023-03-22 04:20:00,2023-03-23 17:20:00,✅ Assigned to M02,
+J556,M05,2023-03-22 04:30:00,2023-03-23 16:30:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J557,M04,2023-03-22 04:40:00,2023-03-24 00:40:00,✅ Assigned to M04,
+J558,M01,2023-03-22 04:50:00,2023-03-24 12:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J559,M04,2023-03-22 05:00:00,2023-03-26 23:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J560,M04,2023-03-22 05:10:00,2023-03-25 12:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J561,M03,2023-03-22 05:20:00,2023-03-24 01:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J562,M05,2023-03-22 05:30:00,2023-03-26 17:30:00,✅ Assigned to M05,
+J563,M03,2023-03-22 05:40:00,2023-03-25 13:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J564,M04,2023-03-22 05:50:00,2023-03-26 21:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J565,M05,2023-03-22 06:00:00,2023-03-26 20:00:00,✅ Assigned to M05,
+J566,M04,2023-03-22 06:10:00,2023-03-26 18:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J567,M01,2023-03-22 06:20:00,2023-03-25 22:20:00,✅ Assigned to M01,
+J568,M03,2023-03-22 06:30:00,2023-03-25 08:30:00,✅ Assigned to M03,
+J569,M02,2023-03-22 06:40:00,2023-03-24 10:40:00,✅ Assigned to M02,
+J570,M03,2023-03-22 06:50:00,2023-03-25 01:50:00,✅ Assigned to M03,
+J571,M03,2023-03-22 07:00:00,2023-03-25 20:00:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J572,M04,2023-03-22 07:10:00,2023-03-26 01:10:00,✅ Assigned to M04,
+J573,M04,2023-03-22 07:20:00,2023-03-25 05:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J574,M02,2023-03-22 07:30:00,2023-03-23 06:30:00,✅ Assigned to M02,
+J575,M05,2023-03-22 07:40:00,2023-03-27 07:40:00,✅ Assigned to M05,
+J576,M04,2023-03-22 07:50:00,2023-03-25 00:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J577,M03,2023-03-22 08:00:00,2023-03-26 11:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J578,M04,2023-03-22 08:10:00,2023-03-25 20:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J579,M01,2023-03-22 08:20:00,2023-03-26 06:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J580,M03,2023-03-22 08:30:00,2023-03-23 12:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J581,M01,2023-03-22 08:40:00,2023-03-25 03:40:00,✅ Assigned to M01,
+J582,M04,2023-03-22 08:50:00,2023-03-26 07:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J583,M03,2023-03-22 09:00:00,2023-03-24 17:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J584,M05,2023-03-22 09:10:00,2023-03-23 17:10:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J585,M05,2023-03-22 09:20:00,2023-03-24 02:20:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J586,M04,2023-03-22 09:30:00,2023-03-26 01:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J587,M05,2023-03-22 09:40:00,2023-03-25 17:40:00,✅ Assigned to M05,
+J588,M04,2023-03-22 09:50:00,2023-03-26 09:50:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J589,M04,2023-03-22 10:00:00,2023-03-24 16:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J590,M04,2023-03-22 10:10:00,2023-03-27 00:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J591,M04,2023-03-22 10:20:00,2023-03-25 08:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J592,M03,2023-03-22 10:30:00,2023-03-25 07:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J593,M04,2023-03-22 10:40:00,2023-03-26 01:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J594,M03,2023-03-22 10:50:00,2023-03-25 22:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J595,M04,2023-03-22 11:00:00,2023-03-23 13:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J596,M02,2023-03-22 11:10:00,2023-03-23 08:10:00,✅ Assigned to M02,
+J597,M03,2023-03-22 11:20:00,2023-03-25 03:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J598,M04,2023-03-22 11:30:00,2023-03-26 17:30:00,✅ Assigned to M04,
+J599,M01,2023-03-22 11:40:00,2023-03-26 00:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J600,M03,2023-03-22 11:50:00,2023-03-25 02:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J601,M01,2023-03-22 12:00:00,2023-03-25 00:00:00,✅ Assigned to M01,
+J602,M01,2023-03-22 12:10:00,2023-03-25 19:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J603,M04,2023-03-22 12:20:00,2023-03-26 06:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J604,M04,2023-03-22 12:30:00,2023-03-26 20:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J605,M04,2023-03-22 12:40:00,2023-03-23 13:40:00,✅ Assigned to M04,
+J606,M01,2023-03-22 12:50:00,2023-03-26 19:50:00,✅ Assigned to M01,
+J607,M03,2023-03-22 13:00:00,2023-03-25 20:00:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J608,M03,2023-03-22 13:10:00,2023-03-27 11:10:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J609,M04,2023-03-22 13:20:00,2023-03-26 02:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J610,M04,2023-03-22 13:30:00,2023-03-27 09:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J611,M04,2023-03-22 13:40:00,2023-03-25 11:40:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J612,M04,2023-03-22 13:50:00,2023-03-26 19:50:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J613,M04,2023-03-22 14:00:00,2023-03-25 08:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J614,M04,2023-03-22 14:10:00,2023-03-25 19:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J615,M03,2023-03-22 14:20:00,2023-03-24 19:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J616,M01,2023-03-22 14:30:00,2023-03-24 11:30:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J617,M01,2023-03-22 14:40:00,2023-03-25 08:40:00,✅ Assigned to M01,
+J618,M04,2023-03-22 14:50:00,2023-03-26 12:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J619,M01,2023-03-22 15:00:00,2023-03-27 09:00:00,✅ Assigned to M01,
+J620,M04,2023-03-22 15:10:00,2023-03-27 07:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J621,M03,2023-03-22 15:20:00,2023-03-25 01:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J622,M04,2023-03-22 15:30:00,2023-03-27 02:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J623,M01,2023-03-22 15:40:00,2023-03-27 04:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J624,M03,2023-03-22 15:50:00,2023-03-23 20:50:00,✅ Assigned to M03,
+J625,M01,2023-03-22 16:00:00,2023-03-25 14:00:00,✅ Assigned to M01,
+J626,M03,2023-03-22 16:10:00,2023-03-24 20:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J627,M04,2023-03-22 16:20:00,2023-03-25 16:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J628,M03,2023-03-22 16:30:00,2023-03-27 15:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J629,M03,2023-03-22 16:40:00,2023-03-27 08:40:00,✅ Assigned to M03,
+J630,M05,2023-03-22 16:50:00,2023-03-24 07:50:00,✅ Assigned to M05,
+J631,M01,2023-03-22 17:00:00,2023-03-27 02:00:00,✅ Assigned to M01,
+J632,M04,2023-03-22 17:10:00,2023-03-24 20:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J633,M03,2023-03-22 17:20:00,2023-03-26 19:20:00,✅ Assigned to M03,
+J634,M01,2023-03-22 17:30:00,2023-03-26 08:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J635,M03,2023-03-22 17:40:00,2023-03-27 00:40:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J636,M03,2023-03-22 17:50:00,2023-03-25 18:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J637,M01,2023-03-22 18:00:00,2023-03-26 07:00:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J638,M03,2023-03-22 18:10:00,2023-03-26 15:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J639,M04,2023-03-22 18:20:00,2023-03-27 00:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J640,M04,2023-03-22 18:30:00,2023-03-24 06:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J641,M04,2023-03-22 18:40:00,2023-03-27 11:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J642,M01,2023-03-22 18:50:00,2023-03-24 13:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J643,M05,2023-03-22 19:00:00,2023-03-25 08:00:00,✅ Assigned to M05,
+J644,M03,2023-03-22 19:10:00,2023-03-26 10:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J645,M03,2023-03-22 19:20:00,2023-03-24 21:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J646,M04,2023-03-22 19:30:00,2023-03-27 17:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J647,M05,2023-03-22 19:40:00,2023-03-26 20:40:00,✅ Assigned to M05,
+J648,M04,2023-03-22 19:50:00,2023-03-25 03:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J649,M03,2023-03-22 20:00:00,2023-03-25 05:00:00,✅ Assigned to M03,
+J650,M03,2023-03-22 20:10:00,2023-03-27 00:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J651,M03,2023-03-22 20:20:00,2023-03-24 09:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J652,M04,2023-03-22 20:30:00,2023-03-23 21:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J653,M03,2023-03-22 20:40:00,2023-03-23 17:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J654,M02,2023-03-22 20:50:00,2023-03-25 07:50:00,✅ Assigned to M02,
+J655,M03,2023-03-22 21:00:00,2023-03-24 19:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J656,M04,2023-03-22 21:10:00,2023-03-23 20:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J657,M03,2023-03-22 21:20:00,2023-03-27 02:20:00,✅ Assigned to M03,
+J658,M03,2023-03-22 21:30:00,2023-03-25 09:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J659,M04,2023-03-22 21:40:00,2023-03-25 10:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J660,M01,2023-03-22 21:50:00,2023-03-27 21:50:00,✅ Assigned to M01,
+J661,M04,2023-03-22 22:00:00,2023-03-26 05:00:00,✅ Assigned to M04,
+J662,M03,2023-03-22 22:10:00,2023-03-24 04:10:00,✅ Assigned to M03,
+J663,M04,2023-03-22 22:20:00,2023-03-27 14:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J664,M04,2023-03-22 22:30:00,2023-03-26 23:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J665,M02,2023-03-22 22:40:00,2023-03-24 19:40:00,✅ Assigned to M02,
+J666,M01,2023-03-22 22:50:00,2023-03-25 21:50:00,✅ Assigned to M01,
+J667,M01,2023-03-22 23:00:00,2023-03-25 22:00:00,✅ Assigned to M01,
+J668,M01,2023-03-22 23:10:00,2023-03-24 04:10:00,✅ Assigned to M01,
+J669,M03,2023-03-22 23:20:00,2023-03-24 14:20:00,✅ Assigned to M03,
+J670,M01,2023-03-22 23:30:00,2023-03-26 11:30:00,✅ Assigned to M01,
+J671,M02,2023-03-22 23:40:00,2023-03-27 19:40:00,✅ Assigned to M02,
+J672,M04,2023-03-22 23:50:00,2023-03-24 05:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J673,M04,2023-03-23 00:00:00,2023-03-27 06:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J674,M04,2023-03-23 00:10:00,2023-03-27 03:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J675,M03,2023-03-23 00:20:00,2023-03-24 01:20:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J676,M03,2023-03-23 00:30:00,2023-03-27 12:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J677,M04,2023-03-23 00:40:00,2023-03-27 15:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J678,M03,2023-03-23 00:50:00,2023-03-25 10:50:00,✅ Assigned to M03,
+J679,M03,2023-03-23 01:00:00,2023-03-26 05:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J680,M04,2023-03-23 01:10:00,2023-03-24 01:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J681,M01,2023-03-23 01:20:00,2023-03-25 20:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J682,M04,2023-03-23 01:30:00,2023-03-24 23:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J683,M01,2023-03-23 01:40:00,2023-03-24 23:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J684,M03,2023-03-23 01:50:00,2023-03-24 05:50:00,✅ Assigned to M03,
+J685,M03,2023-03-23 02:00:00,2023-03-26 11:00:00,✅ Assigned to M03,
+J686,M03,2023-03-23 02:10:00,2023-03-24 15:10:00,✅ Assigned to M03,
+J687,M03,2023-03-23 02:20:00,2023-03-26 08:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J688,M03,2023-03-23 02:30:00,2023-03-25 16:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J689,M04,2023-03-23 02:40:00,2023-03-24 03:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J690,M05,2023-03-23 02:50:00,2023-03-24 18:50:00,✅ Assigned to M05,
+J691,M05,2023-03-23 03:00:00,2023-03-26 18:00:00,✅ Assigned to M05,
+J692,M03,2023-03-23 03:10:00,2023-03-26 14:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J693,M04,2023-03-23 03:20:00,2023-03-25 14:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J694,M01,2023-03-23 03:30:00,2023-03-24 02:30:00,✅ Assigned to M01,
+J695,M01,2023-03-23 03:40:00,2023-03-26 11:40:00,✅ Assigned to M01,
+J696,M04,2023-03-23 03:50:00,2023-03-27 21:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J697,M01,2023-03-23 04:00:00,2023-03-26 06:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J698,M03,2023-03-23 04:10:00,2023-03-25 12:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J699,M03,2023-03-23 04:20:00,2023-03-25 16:20:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J700,M03,2023-03-23 04:30:00,2023-03-27 13:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J701,M02,2023-03-23 04:40:00,2023-03-27 22:40:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J702,M05,2023-03-23 04:50:00,2023-03-25 01:50:00,✅ Assigned to M05,
+J703,M01,2023-03-23 05:00:00,2023-03-24 22:00:00,✅ Assigned to M01,
+J704,M04,2023-03-23 05:10:00,2023-03-24 20:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J705,M03,2023-03-23 05:20:00,2023-03-26 18:20:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J706,M01,2023-03-23 05:30:00,2023-03-26 18:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J707,M04,2023-03-23 05:40:00,2023-03-24 22:40:00,✅ Assigned to M04,
+J708,M05,2023-03-23 05:50:00,2023-03-27 03:50:00,✅ Assigned to M05,
+J709,M01,2023-03-23 06:00:00,2023-03-26 15:00:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J710,M02,2023-03-23 06:10:00,2023-03-26 11:10:00,✅ Assigned to M02,
+J711,M01,2023-03-23 06:20:00,2023-03-24 20:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J712,M03,2023-03-23 06:30:00,2023-03-26 14:30:00,✅ Assigned to M03,
+J713,M03,2023-03-23 06:40:00,2023-03-26 14:40:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J714,M04,2023-03-23 06:50:00,2023-03-25 00:50:00,✅ Assigned to M04,
+J715,M04,2023-03-23 07:00:00,2023-03-25 10:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J716,M04,2023-03-23 07:10:00,2023-03-24 10:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J717,M03,2023-03-23 07:20:00,2023-03-27 07:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J718,M02,2023-03-23 07:30:00,2023-03-27 12:30:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J719,M03,2023-03-23 07:40:00,2023-03-27 03:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J720,M04,2023-03-23 07:50:00,2023-03-27 02:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J721,M02,2023-03-23 08:00:00,2023-03-26 02:00:00,✅ Assigned to M02,
+J722,M03,2023-03-23 08:10:00,2023-03-25 00:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J723,M01,2023-03-23 08:20:00,2023-03-28 07:20:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J724,M01,2023-03-23 08:30:00,2023-03-24 16:30:00,✅ Assigned to M01,
+J725,M01,2023-03-23 08:40:00,2023-03-28 05:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J726,M04,2023-03-23 08:50:00,2023-03-28 05:50:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J727,M04,2023-03-23 09:00:00,2023-03-24 15:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J728,M03,2023-03-23 09:10:00,2023-03-26 04:10:00,✅ Assigned to M03,
+J729,M04,2023-03-23 09:20:00,2023-03-25 10:20:00,✅ Assigned to M04,
+J730,M02,2023-03-23 09:30:00,2023-03-28 08:30:00,✅ Assigned to M02,
+J731,M02,2023-03-23 09:40:00,2023-03-28 04:40:00,✅ Assigned to M02,
+J732,M03,2023-03-23 09:50:00,2023-03-24 16:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J733,M04,2023-03-23 10:00:00,2023-03-26 20:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J734,M04,2023-03-23 10:10:00,2023-03-26 09:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J735,M03,2023-03-23 10:20:00,2023-03-25 16:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J736,M05,2023-03-23 10:30:00,2023-03-24 13:30:00,✅ Assigned to M05,
+J737,M04,2023-03-23 10:40:00,2023-03-24 06:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J738,M04,2023-03-23 10:50:00,2023-03-26 12:50:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J739,M04,2023-03-23 11:00:00,2023-03-27 13:00:00,✅ Assigned to M04,
+J740,M01,2023-03-23 11:10:00,2023-03-25 21:10:00,✅ Assigned to M01,
+J741,M01,2023-03-23 11:20:00,2023-03-25 01:20:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J742,M04,2023-03-23 11:30:00,2023-03-26 14:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J743,M03,2023-03-23 11:40:00,2023-03-25 16:40:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J744,M04,2023-03-23 11:50:00,2023-03-27 13:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J745,M01,2023-03-23 12:00:00,2023-03-24 23:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J746,M03,2023-03-23 12:10:00,2023-03-24 18:10:00,✅ Assigned to M03,
+J747,M04,2023-03-23 12:20:00,2023-03-25 00:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J748,M03,2023-03-23 12:30:00,2023-03-27 10:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J749,M04,2023-03-23 12:40:00,2023-03-26 09:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J750,M05,2023-03-23 12:50:00,2023-03-26 14:50:00,✅ Assigned to M05,
+J751,M03,2023-03-23 13:00:00,2023-03-27 07:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J752,M04,2023-03-23 13:10:00,2023-03-28 03:10:00,✅ Assigned to M04,
+J753,M04,2023-03-23 13:20:00,2023-03-25 15:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J754,M02,2023-03-23 13:30:00,2023-03-28 10:30:00,✅ Assigned to M02,
+J755,M04,2023-03-23 13:40:00,2023-03-28 13:40:00,✅ Assigned to M04,
+J756,M04,2023-03-23 13:50:00,2023-03-24 18:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J757,M01,2023-03-23 14:00:00,2023-03-26 09:00:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J758,M04,2023-03-23 14:10:00,2023-03-24 22:10:00,✅ Assigned to M04,
+J759,M03,2023-03-23 14:20:00,2023-03-28 07:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J760,M03,2023-03-23 14:30:00,2023-03-24 16:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J761,M04,2023-03-23 14:40:00,2023-03-27 05:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J762,M04,2023-03-23 14:50:00,2023-03-26 18:50:00,✅ Assigned to M04,
+J763,M04,2023-03-23 15:00:00,2023-03-27 03:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J764,M01,2023-03-23 15:10:00,2023-03-27 16:10:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J765,M04,2023-03-23 15:20:00,2023-03-24 12:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J766,M01,2023-03-23 15:30:00,2023-03-27 17:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J767,M03,2023-03-23 15:40:00,2023-03-28 07:40:00,✅ Assigned to M03,
+J768,M04,2023-03-23 15:50:00,2023-03-27 06:50:00,✅ Assigned to M04,
+J769,M01,2023-03-23 16:00:00,2023-03-26 03:00:00,✅ Assigned to M01,
+J770,M05,2023-03-23 16:10:00,2023-03-28 01:10:00,✅ Assigned to M05,
+J771,M05,2023-03-23 16:20:00,2023-03-27 23:20:00,✅ Assigned to M05,
+J772,M04,2023-03-23 16:30:00,2023-03-26 15:30:00,✅ Assigned to M04,
+J773,M04,2023-03-23 16:40:00,2023-03-28 16:40:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J774,M04,2023-03-23 16:50:00,2023-03-26 13:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J775,M03,2023-03-23 17:00:00,2023-03-25 03:00:00,✅ Assigned to M03,
+J776,M03,2023-03-23 17:10:00,2023-03-28 15:10:00,✅ Assigned to M03,
+J777,M02,2023-03-23 17:20:00,2023-03-25 13:20:00,✅ Assigned to M02,
+J778,M04,2023-03-23 17:30:00,2023-03-26 20:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J779,M04,2023-03-23 17:40:00,2023-03-26 09:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J780,M04,2023-03-23 17:50:00,2023-03-25 00:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J781,M05,2023-03-23 18:00:00,2023-03-28 01:00:00,✅ Assigned to M05,
+J782,M03,2023-03-23 18:10:00,2023-03-25 12:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J783,M01,2023-03-23 18:20:00,2023-03-26 19:20:00,✅ Assigned to M01,
+J784,M02,2023-03-23 18:30:00,2023-03-28 16:30:00,✅ Assigned to M02,
+J785,M04,2023-03-23 18:40:00,2023-03-27 19:40:00,✅ Assigned to M04,
+J786,M05,2023-03-23 18:50:00,2023-03-28 08:50:00,✅ Assigned to M05,
+J787,M04,2023-03-23 19:00:00,2023-03-27 15:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J788,M04,2023-03-23 19:10:00,2023-03-27 08:10:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J789,M02,2023-03-23 19:20:00,2023-03-24 20:20:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J790,M05,2023-03-23 19:30:00,2023-03-24 23:30:00,✅ Assigned to M05,
+J791,M03,2023-03-23 19:40:00,2023-03-28 05:40:00,✅ Assigned to M03,
+J792,M04,2023-03-23 19:50:00,2023-03-26 17:50:00,✅ Assigned to M04,
+J793,M04,2023-03-23 20:00:00,2023-03-27 23:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J794,M03,2023-03-23 20:10:00,2023-03-27 17:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J795,M03,2023-03-23 20:20:00,2023-03-28 09:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J796,M01,2023-03-23 20:30:00,2023-03-28 19:30:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J797,M02,2023-03-23 20:40:00,2023-03-27 23:40:00,✅ Assigned to M02,
+J798,M04,2023-03-23 20:50:00,2023-03-25 16:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J799,M05,2023-03-23 21:00:00,2023-03-28 05:00:00,✅ Assigned to M05,
+J800,M01,2023-03-23 21:10:00,2023-03-28 17:10:00,✅ Assigned to M01,
+J801,M01,2023-03-23 21:20:00,2023-03-26 04:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J802,M03,2023-03-23 21:30:00,2023-03-28 15:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J803,M02,2023-03-23 21:40:00,2023-03-28 05:40:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J804,M03,2023-03-23 21:50:00,2023-03-25 07:50:00,✅ Assigned to M03,
+J805,M03,2023-03-23 22:00:00,2023-03-26 04:00:00,✅ Assigned to M03,
+J806,M02,2023-03-23 22:10:00,2023-03-28 12:10:00,✅ Assigned to M02,
+J807,M03,2023-03-23 22:20:00,2023-03-28 01:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J808,M03,2023-03-23 22:30:00,2023-03-28 16:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J809,M04,2023-03-23 22:40:00,2023-03-27 19:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J810,M03,2023-03-23 22:50:00,2023-03-27 10:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J811,M01,2023-03-23 23:00:00,2023-03-25 04:00:00,✅ Assigned to M01,
+J812,M03,2023-03-23 23:10:00,2023-03-24 23:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J813,M05,2023-03-23 23:20:00,2023-03-28 22:20:00,✅ Assigned to M05,
+J814,M02,2023-03-23 23:30:00,2023-03-28 07:30:00,✅ Assigned to M02,
+J815,M03,2023-03-23 23:40:00,2023-03-28 06:40:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J816,M05,2023-03-23 23:50:00,2023-03-25 09:50:00,✅ Assigned to M05,
+J817,M02,2023-03-24 00:00:00,2023-03-26 18:00:00,✅ Assigned to M02,
+J818,M04,2023-03-24 00:10:00,2023-03-26 13:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J819,M03,2023-03-24 00:20:00,2023-03-27 00:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J820,M01,2023-03-24 00:30:00,2023-03-28 13:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J821,M04,2023-03-24 00:40:00,2023-03-25 00:40:00,✅ Assigned to M04,
+J822,M01,2023-03-24 00:50:00,2023-03-27 18:50:00,✅ Assigned to M01,
+J823,M04,2023-03-24 01:00:00,2023-03-27 23:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J824,M04,2023-03-24 01:10:00,2023-03-27 22:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J825,M02,2023-03-24 01:20:00,2023-03-25 10:20:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J826,M03,2023-03-24 01:30:00,2023-03-26 20:30:00,✅ Assigned to M03,
+J827,M01,2023-03-24 01:40:00,2023-03-28 04:40:00,✅ Assigned to M01,
+J828,M04,2023-03-24 01:50:00,2023-03-26 11:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J829,M03,2023-03-24 02:00:00,2023-03-27 20:00:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J830,M03,2023-03-24 02:10:00,2023-03-25 02:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J831,M04,2023-03-24 02:20:00,2023-03-27 10:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J832,M04,2023-03-24 02:30:00,2023-03-28 06:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J833,M02,2023-03-24 02:40:00,2023-03-27 19:40:00,✅ Assigned to M02,
+J834,M03,2023-03-24 02:50:00,2023-03-27 01:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J835,M04,2023-03-24 03:00:00,2023-03-26 15:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J836,M03,2023-03-24 03:10:00,2023-03-28 15:10:00,✅ Assigned to M03,
+J837,M03,2023-03-24 03:20:00,2023-03-26 07:20:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J838,M04,2023-03-24 03:30:00,2023-03-28 09:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J839,M05,2023-03-24 03:40:00,2023-03-27 05:40:00,✅ Assigned to M05,
+J840,M02,2023-03-24 03:50:00,2023-03-29 01:50:00,✅ Assigned to M02,
+J841,M04,2023-03-24 04:00:00,2023-03-27 23:00:00,✅ Assigned to M04,
+J842,M03,2023-03-24 04:10:00,2023-03-27 20:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J843,M04,2023-03-24 04:20:00,2023-03-26 17:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J844,M04,2023-03-24 04:30:00,2023-03-26 14:30:00,✅ Assigned to M04,
+J845,M04,2023-03-24 04:40:00,2023-03-25 20:40:00,✅ Assigned to M04,
+J846,M01,2023-03-24 04:50:00,2023-03-27 23:50:00,✅ Assigned to M01,
+J847,M04,2023-03-24 05:00:00,2023-03-27 06:00:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J848,M02,2023-03-24 05:10:00,2023-03-27 19:10:00,✅ Assigned to M02,
+J849,M04,2023-03-24 05:20:00,2023-03-26 10:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J850,M03,2023-03-24 05:30:00,2023-03-28 20:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J851,M04,2023-03-24 05:40:00,2023-03-25 11:40:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J852,M04,2023-03-24 05:50:00,2023-03-27 01:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J853,M04,2023-03-24 06:00:00,2023-03-27 20:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J854,M03,2023-03-24 06:10:00,2023-03-27 02:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J855,M01,2023-03-24 06:20:00,2023-03-28 00:20:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J856,M04,2023-03-24 06:30:00,2023-03-26 20:30:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J857,M02,2023-03-24 06:40:00,2023-03-26 20:40:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J858,M04,2023-03-24 06:50:00,2023-03-29 00:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J859,M03,2023-03-24 07:00:00,2023-03-25 11:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J860,M04,2023-03-24 07:10:00,2023-03-28 13:10:00,✅ Assigned to M04,
+J861,M03,2023-03-24 07:20:00,2023-03-27 03:20:00,✅ Assigned to M03,🔧 Machine likely broken: job failed (no actual start/end).
+J862,M04,2023-03-24 07:30:00,2023-03-26 15:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J863,M04,2023-03-24 07:40:00,2023-03-27 12:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J864,M02,2023-03-24 07:50:00,2023-03-27 14:50:00,✅ Assigned to M02,
+J865,M04,2023-03-24 08:00:00,2023-03-27 13:00:00,✅ Assigned to M04,
+J866,M04,2023-03-24 08:10:00,2023-03-25 17:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J867,M03,2023-03-24 08:20:00,2023-03-27 17:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J868,M03,2023-03-24 08:30:00,2023-03-25 17:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J869,M01,2023-03-24 08:40:00,2023-03-25 23:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J870,M03,2023-03-24 08:50:00,2023-03-27 15:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J871,M04,2023-03-24 09:00:00,2023-03-27 09:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J872,M03,2023-03-24 09:10:00,2023-03-28 04:10:00,✅ Assigned to M03,
+J873,M02,2023-03-24 09:20:00,2023-03-28 22:20:00,✅ Assigned to M02,
+J874,M04,2023-03-24 09:30:00,2023-03-27 11:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J875,M03,2023-03-24 09:40:00,2023-03-27 22:40:00,✅ Assigned to M03,
+J876,M03,2023-03-24 09:50:00,2023-03-26 16:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J877,M05,2023-03-24 10:00:00,2023-03-25 09:00:00,✅ Assigned to M05,
+J878,M03,2023-03-24 10:10:00,2023-03-29 06:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J879,M04,2023-03-24 10:20:00,2023-03-26 14:20:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J880,M02,2023-03-24 10:30:00,2023-03-27 02:30:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J881,M03,2023-03-24 10:40:00,2023-03-28 19:40:00,✅ Assigned to M03,
+J882,M04,2023-03-24 10:50:00,2023-03-26 22:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J883,M03,2023-03-24 11:00:00,2023-03-26 06:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J884,M04,2023-03-24 11:10:00,2023-03-25 19:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J885,M05,2023-03-24 11:20:00,2023-03-26 08:20:00,✅ Assigned to M05,
+J886,M03,2023-03-24 11:30:00,2023-03-25 12:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J887,M01,2023-03-24 11:40:00,2023-03-28 20:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J888,M02,2023-03-24 11:50:00,2023-03-27 21:50:00,✅ Assigned to M02,
+J889,M04,2023-03-24 12:00:00,2023-03-27 18:00:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J890,M01,2023-03-24 12:10:00,2023-03-25 18:10:00,✅ Assigned to M01,
+J891,M02,2023-03-24 12:20:00,2023-03-28 20:20:00,✅ Assigned to M02,
+J892,M02,2023-03-24 12:30:00,2023-03-26 07:30:00,✅ Assigned to M02,
+J893,M01,2023-03-24 12:40:00,2023-03-29 07:40:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J894,M01,2023-03-24 12:50:00,2023-03-27 08:50:00,✅ Assigned to M01,
+J895,M05,2023-03-24 13:00:00,2023-03-27 23:00:00,✅ Assigned to M05,
+J896,M04,2023-03-24 13:10:00,2023-03-29 02:10:00,✅ Assigned to M04,
+J897,M05,2023-03-24 13:20:00,2023-03-27 01:20:00,✅ Assigned to M05,
+J898,M04,2023-03-24 13:30:00,2023-03-25 09:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J899,M04,2023-03-24 13:40:00,2023-03-27 16:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J900,M03,2023-03-24 13:50:00,2023-03-27 00:50:00,✅ Assigned to M03,
+J901,M03,2023-03-24 14:00:00,2023-03-28 12:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J902,M03,2023-03-24 14:10:00,2023-03-28 21:10:00,✅ Assigned to M03,
+J903,M03,2023-03-24 14:20:00,2023-03-28 13:20:00,✅ Assigned to M03,
+J904,M03,2023-03-24 14:30:00,2023-03-27 07:30:00,🔁 Reassigned to spare machine M03,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J905,M03,2023-03-24 14:40:00,2023-03-26 14:40:00,✅ Assigned to M03,
+J906,M01,2023-03-24 14:50:00,2023-03-27 02:50:00,✅ Assigned to M01,
+J907,M02,2023-03-24 15:00:00,2023-03-28 09:00:00,✅ Assigned to M02,
+J908,M03,2023-03-24 15:10:00,2023-03-29 01:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J909,M02,2023-03-24 15:20:00,2023-03-29 11:20:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J910,M04,2023-03-24 15:30:00,2023-03-26 05:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J911,M04,2023-03-24 15:40:00,2023-03-29 07:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J912,M04,2023-03-24 15:50:00,2023-03-27 15:50:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J913,M05,2023-03-24 16:00:00,2023-03-25 23:00:00,✅ Assigned to M05,
+J914,M03,2023-03-24 16:10:00,2023-03-27 16:10:00,✅ Assigned to M03,
+J915,M02,2023-03-24 16:20:00,2023-03-28 03:20:00,✅ Assigned to M02,
+J916,M01,2023-03-24 16:30:00,2023-03-25 23:30:00,✅ Assigned to M01,
+J917,M04,2023-03-24 16:40:00,2023-03-26 08:40:00,✅ Assigned to M04,
+J918,M01,2023-03-24 16:50:00,2023-03-29 12:50:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J919,M04,2023-03-24 17:00:00,2023-03-26 17:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J920,M02,2023-03-24 17:10:00,2023-03-26 12:10:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J921,M04,2023-03-24 17:20:00,2023-03-28 11:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J922,M02,2023-03-24 17:30:00,2023-03-26 15:30:00,✅ Assigned to M02,
+J923,M03,2023-03-24 17:40:00,2023-03-28 12:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J924,M04,2023-03-24 17:50:00,2023-03-28 05:50:00,✅ Assigned to M04,
+J925,M04,2023-03-24 18:00:00,2023-03-26 00:00:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J926,M05,2023-03-24 18:10:00,2023-03-29 13:10:00,✅ Assigned to M05,
+J927,M03,2023-03-24 18:20:00,2023-03-27 06:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J928,M04,2023-03-24 18:30:00,2023-03-28 22:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J929,M04,2023-03-24 18:40:00,2023-03-28 17:40:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J930,M04,2023-03-24 18:50:00,2023-03-28 23:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J931,M03,2023-03-24 19:00:00,2023-03-27 02:00:00,✅ Assigned to M03,
+J932,M01,2023-03-24 19:10:00,2023-03-26 12:10:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J933,M02,2023-03-24 19:20:00,2023-03-26 20:20:00,✅ Assigned to M02,
+J934,M05,2023-03-24 19:30:00,2023-03-28 11:30:00,✅ Assigned to M05,
+J935,M02,2023-03-24 19:40:00,2023-03-28 04:40:00,✅ Assigned to M02,
+J936,M03,2023-03-24 19:50:00,2023-03-25 17:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J937,M03,2023-03-24 20:00:00,2023-03-29 03:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J938,M02,2023-03-24 20:10:00,2023-03-26 19:10:00,✅ Assigned to M02,
+J939,M02,2023-03-24 20:20:00,2023-03-26 22:20:00,✅ Assigned to M02,
+J940,M01,2023-03-24 20:30:00,2023-03-28 11:30:00,✅ Assigned to M01,
+J941,M04,2023-03-24 20:40:00,2023-03-29 05:40:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J942,M02,2023-03-24 20:50:00,2023-03-25 16:50:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J943,M04,2023-03-24 21:00:00,2023-03-27 20:00:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J944,M04,2023-03-24 21:10:00,2023-03-26 16:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J945,M04,2023-03-24 21:20:00,2023-03-26 06:20:00,✅ Assigned to M04,
+J946,M04,2023-03-24 21:30:00,2023-03-26 18:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J947,M03,2023-03-24 21:40:00,2023-03-28 13:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J948,M03,2023-03-24 21:50:00,2023-03-29 01:50:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J949,M03,2023-03-24 22:00:00,2023-03-27 07:00:00,✅ Assigned to M03,
+J950,M03,2023-03-24 22:10:00,2023-03-28 18:10:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J951,M03,2023-03-24 22:20:00,2023-03-28 07:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J952,M04,2023-03-24 22:30:00,2023-03-25 22:30:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J953,M03,2023-03-24 22:40:00,2023-03-29 05:40:00,✅ Assigned to M03,
+J954,M01,2023-03-24 22:50:00,2023-03-26 13:50:00,✅ Assigned to M01,
+J955,M04,2023-03-24 23:00:00,2023-03-27 06:00:00,✅ Assigned to M04,🔧 Machine likely broken: job failed (no actual start/end).
+J956,M04,2023-03-24 23:10:00,2023-03-27 02:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J957,M03,2023-03-24 23:20:00,2023-03-28 17:20:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J958,M05,2023-03-24 23:30:00,2023-03-26 19:30:00,✅ Assigned to M05,
+J959,M02,2023-03-24 23:40:00,2023-03-28 11:40:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J960,M02,2023-03-24 23:50:00,2023-03-28 15:50:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J961,M04,2023-03-25 00:00:00,2023-03-28 21:00:00,✅ Assigned to M04,
+J962,M01,2023-03-25 00:10:00,2023-03-27 19:10:00,✅ Assigned to M01,
+J963,M02,2023-03-25 00:20:00,2023-03-29 05:20:00,🔁 Reassigned to spare machine M02,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M02.
+J964,M03,2023-03-25 00:30:00,2023-03-27 18:30:00,✅ Assigned to M03,
+J965,M02,2023-03-25 00:40:00,2023-03-26 19:40:00,✅ Assigned to M02,
+J966,M04,2023-03-25 00:50:00,2023-03-29 18:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J967,M05,2023-03-25 01:00:00,2023-03-27 17:00:00,✅ Assigned to M05,
+J968,M04,2023-03-25 01:10:00,2023-03-26 09:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J969,M02,2023-03-25 01:20:00,2023-03-26 09:20:00,✅ Assigned to M02,
+J970,M01,2023-03-25 01:30:00,2023-03-28 04:30:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J971,M03,2023-03-25 01:40:00,2023-03-30 00:40:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J972,M01,2023-03-25 01:50:00,2023-03-27 12:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J973,M03,2023-03-25 02:00:00,2023-03-27 15:00:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J974,M05,2023-03-25 02:10:00,2023-03-26 19:10:00,✅ Assigned to M05,
+J975,M03,2023-03-25 02:20:00,2023-03-28 23:20:00,✅ Assigned to M03,
+J976,M04,2023-03-25 02:30:00,2023-03-29 07:30:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J977,M01,2023-03-25 02:40:00,2023-03-28 08:40:00,✅ Assigned to M01,🔧 Machine likely broken: job failed (no actual start/end).
+J978,M02,2023-03-25 02:50:00,2023-03-29 04:50:00,✅ Assigned to M02,
+J979,M02,2023-03-25 03:00:00,2023-03-29 07:00:00,✅ Assigned to M02,
+J980,M04,2023-03-25 03:10:00,2023-03-28 02:10:00,🔁 Reassigned to spare machine M04,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J981,M02,2023-03-25 03:20:00,2023-03-28 11:20:00,✅ Assigned to M02,
+J982,M01,2023-03-25 03:30:00,2023-03-26 06:30:00,✅ Assigned to M01,
+J983,M05,2023-03-25 03:40:00,2023-03-27 01:40:00,✅ Assigned to M05,
+J984,M01,2023-03-25 03:50:00,2023-03-28 05:50:00,🔁 Reassigned to spare machine M01,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J985,M02,2023-03-25 04:00:00,2023-03-29 11:00:00,✅ Assigned to M02,
+J986,M05,2023-03-25 04:10:00,2023-03-27 16:10:00,✅ Assigned to M05,
+J987,M02,2023-03-25 04:20:00,2023-03-30 04:20:00,✅ Assigned to M02,
+J988,M03,2023-03-25 04:30:00,2023-03-29 12:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J989,M03,2023-03-25 04:40:00,2023-03-28 21:40:00,✅ Assigned to M03,
+J990,M04,2023-03-25 04:50:00,2023-03-28 19:50:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J991,M02,2023-03-25 05:00:00,2023-03-26 17:00:00,✅ Assigned to M02,
+J992,M01,2023-03-25 05:10:00,2023-03-28 16:10:00,✅ Assigned to M01,
+J993,M05,2023-03-25 05:20:00,2023-03-29 14:20:00,✅ Assigned to M05,
+J994,M03,2023-03-25 05:30:00,2023-03-29 03:30:00,🔁 Reassigned to spare machine M03,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M03.
+J995,M01,2023-03-25 05:40:00,2023-03-30 03:40:00,🔁 Reassigned to spare machine M01,🔧 Machine likely broken: job failed (no actual start/end). 🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M01.
+J996,M02,2023-03-25 05:50:00,2023-03-27 07:50:00,✅ Assigned to M02,🔧 Machine likely broken: job failed (no actual start/end).
+J997,M05,2023-03-25 06:00:00,2023-03-27 18:00:00,✅ Assigned to M05,🔧 Machine likely broken: job failed (no actual start/end).
+J998,M04,2023-03-25 06:10:00,2023-03-29 12:10:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J999,M04,2023-03-25 06:20:00,2023-03-28 09:20:00,🔁 Reassigned to spare machine M04,🛑 Machine under maintenance or low availability. ⚠️ Fallback to spare machine M04.
+J1000,M05,2023-03-25 06:30:00,2023-03-29 21:30:00,✅ Assigned to M05,
