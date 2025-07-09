@@ -31,13 +31,14 @@
 
 .logo {
     width: 200px;
-    height: 90px
+    height: 150px
 }
 
 .logo a img {
-    width: 120px;
-    height: 96px;
+    width: 200px;
+    height: 200px;
     margin-left: 20px;
+    margin-top: -50px;
 }
 
 .menu a {

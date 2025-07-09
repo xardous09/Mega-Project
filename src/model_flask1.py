@@ -1,24 +1,31 @@
-from flask import Flask, request, render_template, redirect, url_for, send_from_directory, jsonify
-import pickle
+# --- model_flask1.py (Final Clean Combined Version) ---
+
+from flask import Flask, request, render_template, redirect, url_for, send_from_directory
 import pandas as pd
-from werkzeug.utils import secure_filename
 import os
+import json
+import pickle
 import joblib
 import numpy as np
 from tensorflow.keras.models import load_model
+from werkzeug.utils import secure_filename
 
+# --- Initialize Flask ---
 app = Flask(__name__)
 
+# --- Configuration ---
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'csv'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+# --- Load Predictive Maintenance Models ---
 model_pipeline = pickle.load(open("predictive_maintenance_model.pkl", "rb"))
 lstm_model = load_model("lstm_model.h5")
 scaler = joblib.load("scaler.pkl")
 max_rul_value = joblib.load("max_rul.pkl")
 
+# --- Helper Functions ---
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
@@ -29,38 +36,22 @@ def predict_rul(input_list):
     prediction = lstm_model.predict(reshaped)[0][0]
     return round(prediction * max_rul_value, 2)
 
-@app.route("/model", methods=["GET"])
-def Home():
-    return render_template("model.html")
+# --- Routes ---
 
-@app.route("/", methods=["GET"])
-def Home_main():
-    return render_template("home.html")
+# Home Page for Scheduling
+@app.route('/')
+def home():
+    return render_template('scheduling.html')
 
-@app.route("/job-scheduling", methods=["GET", "POST"])
-def job_scheduling():
-    if request.method == 'POST':
-        file = request.files.get('file')
-        if not file:
-            return "No file uploaded"
-        filename = secure_filename(file.filename)
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        file.save(filepath)
+# --- Predictive Maintenance Pages ---
 
-        df = pd.read_csv(filepath)
-        df['Scheduled_Duration'] = (pd.to_datetime(df['Scheduled_End']) - pd.to_datetime(df['Scheduled_Start'])).dt.total_seconds() / 60
-        df['Actual_Duration'] = (pd.to_datetime(df['Actual_End']) - pd.to_datetime(df['Actual_Start'])).dt.total_seconds() / 60
+# Manual Input Page
+@app.route('/model', methods=['GET'])
+def model_page():
+    return render_template('model.html')
 
-        df['Alert'] = ["Delay Alert" if act > sched * 1.5 else "OK"
-                       for sched, act in zip(df['Scheduled_Duration'], df['Actual_Duration'])]
-
-        output_file = os.path.join(app.config['UPLOAD_FOLDER'], f"scheduled_{filename}")
-        df.to_csv(output_file, index=False)
-
-        return redirect(url_for('download_file', filename=f"scheduled_{filename}"))
-    return render_template("scheduling.html")
-
-@app.route("/predict", methods=["POST"])
+# Predict from Form Data
+@app.route('/predict', methods=['POST'])
 def predict():
     try:
         air_temperature = float(request.form['air_temperature'])
@@ -97,11 +88,12 @@ def predict():
             "rul": rul
         }
 
-    except ValueError as e:
+    except ValueError:
         return render_template("model.html", prediction_text="Input error: Please enter valid numeric values for all fields.")
 
     return redirect(url_for('dashboard', **dashboard_data))
 
+# Maintenance Prediction Dashboard
 @app.route('/dashboard')
 def dashboard():
     air_temperature = request.args.get('air_temperature', type=float)
@@ -124,7 +116,7 @@ def dashboard():
     else:
         efficiency_text = "Urgent Maintenance Required"
 
-    return render_template('dashboard.html', 
+    return render_template('dashboard.html',
                            air_temperature=air_temperature,
                            process_temperature=process_temperature,
                            rotational_speed=rotational_speed,
@@ -136,6 +128,7 @@ def dashboard():
                            efficiency=efficiency,
                            rul=rul)
 
+# Upload CSV for Bulk Maintenance Prediction
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
@@ -164,17 +157,97 @@ def upload_file():
 
                 return redirect(url_for('download_file', filename=output_filename))
 
-        except Exception as e:
+        except Exception:
             return render_template("model.html", error="An error occurred while processing the file. Please ensure it's a valid CSV.")
 
     return render_template("model.html")
 
+# Download Predicted Output
 @app.route('/uploads/<filename>')
 def download_file(filename):
     try:
         return send_from_directory(app.config['UPLOAD_FOLDER'], filename, as_attachment=True)
-    except Exception as e:
+    except Exception:
         return render_template("model.html", error="File not found or an error occurred while trying to download the file.")
 
-if __name__ == "__main__":
+# --- Job Scheduling Pages ---
+
+# Upload CSV for Job Scheduling
+@app.route('/job-scheduling', methods=['GET', 'POST'])
+def job_scheduling():
+    if request.method == 'POST':
+        file = request.files.get('file')
+        algorithm_choice = request.form.get('algorithm')
+
+        if not file or file.filename == '':
+            return render_template("scheduling.html", error="No file selected.")
+
+        filename = secure_filename(file.filename)
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(filepath)
+
+        df = pd.read_csv(filepath)
+
+        expected_columns = ['Job_Name', 'Machine_Name', 'Start_Time', 'End_Time']
+        if not all(col in df.columns for col in expected_columns):
+            return render_template("scheduling.html", error="CSV format incorrect. Must have Job_Name, Machine_Name, Start_Time, End_Time.")
+
+        scheduled_df = pd.DataFrame({
+            "Job": df['Job_Name'],
+            "Machine": df['Machine_Name'],
+            "Start": pd.to_datetime(df['Start_Time']),
+            "End": pd.to_datetime(df['End_Time'])
+        })
+
+        output_filename = 'scheduled_jobs.csv'
+        output_filepath = os.path.join(app.config['UPLOAD_FOLDER'], output_filename)
+        scheduled_df.to_csv(output_filepath, index=False)
+
+        return redirect(url_for('visualization_results'))
+
+    return render_template('scheduling.html')
+
+# Visualization Page for Job Scheduling
+@app.route('/visualization-results')
+def visualization_results():
+    output_filepath = os.path.join(app.config['UPLOAD_FOLDER'], 'scheduled_jobs.csv')
+
+    if not os.path.exists(output_filepath):
+        return "Scheduled jobs output file not found!"
+
+    df = pd.read_csv(output_filepath)
+
+    gantt_data = []
+    for idx, row in df.iterrows():
+        gantt_data.append({
+            "Task": row['Job'],
+            "Machine": row['Machine'],
+            "Start": row['Start'],
+            "Finish": row['End']
+        })
+
+    utilization = df['Machine'].value_counts(normalize=True) * 100
+    utilization_data = [{"Machine": machine, "Utilization": round(percent, 2)} for machine, percent in utilization.items()]
+
+    breakdown_alerts = ["⚠️ Example breakdown alert"]
+    rescheduling_info = ["🔄 Example rescheduling alert"]
+
+    final_schedule_table = []
+    for idx, row in df.iterrows():
+        final_schedule_table.append({
+            "Job": row['Job'],
+            "Machine": row['Machine'],
+            "Start": pd.to_datetime(row['Start']).strftime('%H:%M'),
+            "End": pd.to_datetime(row['End']).strftime('%H:%M')
+        })
+
+    return render_template('visualization.html',
+                            gantt_data=json.dumps(gantt_data),
+                            utilization_data=json.dumps(utilization_data),
+                            breakdown_alerts=json.dumps(breakdown_alerts),
+                            rescheduling_info=json.dumps(rescheduling_info),
+                            final_schedule_table=json.dumps(final_schedule_table))
+
+# --- Run the Server ---
+if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=100)

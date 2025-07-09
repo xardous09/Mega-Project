@@ -28,13 +28,14 @@
 
 .logo {
     width: 200px;
-    height: 90px
+    height: 150px
 }
 
 .logo a img {
-    width: 120px;
-    height: 96px;
+    width: 180px;
+    height: 180px;
     margin-left: 20px;
+    margin-top: -50px;
 }
 
 .menu a {
@@ -104,9 +105,10 @@
 }
 
 .dash_title{
-    margin-top: 20px;
+    margin-top: -50px;
     margin-left: 40px;
     margin-bottom: 10px;
+    color: #fff;
 }
 .all_dashboard {
     display: flex;

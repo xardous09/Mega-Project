@@ -1,65 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <title>Manufacturing Job Scheduling</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Scheduling Dashboard</title>
     <link rel="stylesheet" href="../static/css/model.css">
 </head>
 
 <body>
     <div class="main">
+        <!-- Navbar -->
         <nav>
             <div class="main_nav">
                 <div class="logo">
                     <a href="/"><img src="../static/images/machine_maint.png" id="comp_logo" alt="logo"></a>
                 </div>
                 <div class="menu">
-                    <a href="/">
-                        <div class="options home">Home</div>
-                    </a>
-                    <a href="/model">
-                        <div class="options service">Predictive Maintenance</div>
-                    </a>
-                    <a href="/job-scheduling">
-                        <div class="options about">Job Scheduling</div>
-                    </a>
+                    <a href="/"><div class="options home">Home</div></a>
+                    <a href="/model"><div class="options service">Predictive Maintenance</div></a>
+                    <a href="/job-scheduling"><div class="options about">Job Scheduling</div></a>
                 </div>
             </div>
         </nav>
 
+        <!-- Upload Section -->
         <div class="content" style="display: flex; flex-direction: column; align-items: center;">
             <h2 id="model_name">Manufacturing Job Scheduling</h2>
+
             <section class="upload_file" style="display: flex; flex-direction: column; align-items: center;">
                 <h2 class="model_name_type">Upload Job Schedule CSV</h2>
-                <form action="/upload-job-list" method="post" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center;">
+
+                <form action="/job-scheduling" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center;">
+                    
+                    <!-- File Upload Card -->
                     <div class="container">
                         <div class="card">
                             <h3>Upload Files</h3>
                             <div class="drop_box">
-                                <header>
-                                    <h4>Select File here</h4>
-                                </header>
-                                <p>Files Supported: CSV</p>
-                                <input type="file" hidden accept=".csv" name="file" id="upload_csv">
+                                <header><h4>Select File Here</h4></header>
+                                <p>Files Supported: CSV (Job_ID, Machine_ID, Scheduled_Start, Scheduled_End)</p>
+                                <input type="file" hidden accept=".csv" name="file" id="upload_csv" required>
                                 <label for="upload_csv" class="btn">Choose File</label>
                                 <p id="file_name">No file chosen</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Algorithm Selection -->
+                    <div style="margin-top: 30px; text-align: center;">
+                        <h3>Select Scheduling Algorithm 
+                            <span style="cursor: pointer;" onclick="toggleInfoBox()">🛈</span>
+                        </h3>
+
+                        <select name="algorithm" id="algorithm_selector" required style="margin-top: 10px; padding: 10px; border-radius: 10px; font-size: 16px;">
+                            <option value="auto">Auto-Select Best</option>
+                            <option value="priority">Priority Scheduling</option>
+                            <option value="edf">Earliest Deadline First (EDF)</option>
+                            <option value="sjf">Shortest Job First (SJF)</option>
+                            <option value="rr">Round Robin (RR)</option>
+                            <option value="rl">Reinforcement Learning (RL)</option>
+                        </select>
+
+                        <!-- Info Box -->
+                        <div id="info_box" style="display: none; background-color: white; padding: 20px; border: 2px solid #ccc; border-radius: 10px; margin-top: 20px; width: 300px; text-align: left;">
+                            <ul style="padding-left: 20px; list-style-type: disc;">
+                                <li><b>Priority Scheduling</b>: Urgent jobs first.</li>
+                                <li><b>Shortest Job First (SJF)</b>: Shorter jobs prioritized.</li>
+                                <li><b>Earliest Deadline First (EDF)</b>: Jobs with nearer deadlines first.</li>
+                                <li><b>Round Robin (RR)</b>: Equal time sharing between jobs.</li>
+                                <li><b>Reinforcement Learning (RL)</b>: AI learns best scheduling over time.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
                     <button type="submit" id="submit_upload_csv" style="margin-top: 20px;">Submit</button>
                 </form>
-            </section>
 
-            <section class="results" id="results" style="display:none; margin-top: 40px;">
-                <h3>Job Scheduling Summary</h3>
-                <p id="summary_text">Processing...</p>
+                <!-- Optional Download Links (appear after backend processing) -->
+                <div style="margin-top: 30px; text-align: center;">
+                    {% if schedule_file %}
+                        <a href="{{ url_for('download_file', filename=schedule_file) }}" class="btn" download>📄 Download Schedule Output</a><br><br>
+                    {% endif %}
+                    {% if alerts_file %}
+                        <a href="{{ url_for('download_file', filename=alerts_file) }}" class="btn" download>⚠️ Download Alerts & Replacements</a><br><br>
+                    {% endif %}
+                    {% if gantt_file %}
+                        <a href="{{ url_for('download_file', filename=gantt_file) }}" class="btn" download>📊 Download Gantt Chart</a>
+                    {% endif %}
+                </div>
             </section>
         </div>
     </div>
 
+    <!-- Scripts -->
+    <script src="../static/js/info_toggle.js"></script>
     <script src="../static/js/model.js"></script>
-</body>
 
+    <script>
+        // Display selected file name
+        const uploadInput = document.getElementById('upload_csv');
+        const fileNameDisplay = document.getElementById('file_name');
+        uploadInput.addEventListener('change', function () {
+            if (uploadInput.files.length > 0) {
+                fileNameDisplay.textContent = uploadInput.files[0].name;
+            } else {
+                fileNameDisplay.textContent = "No file chosen";
+            }
+        });
+
+        // Toggle algorithm info
+        function toggleInfoBox() {
+            const box = document.getElementById("info_box");
+            box.style.display = (box.style.display === "none") ? "block" : "none";
+        }
+    </script>
+</body>
 </html>
